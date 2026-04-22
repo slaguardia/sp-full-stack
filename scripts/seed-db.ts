@@ -17,7 +17,7 @@ import { readFileSync } from "fs";
 import { join } from "path";
 
 const ROOT = join(__dirname, "..");
-const DB_PATH = join(ROOT, "fsc.db");
+const DB_PATH = process.env.DATABASE_PATH || join(ROOT, "fsc.db");
 const SCHEMA_PATH = join(ROOT, "data", "schema.sql");
 const GROUPS_PATH = join(ROOT, "data", "fsg_groups.json");
 const CODES_PATH = join(ROOT, "data", "fsc_codes.json");

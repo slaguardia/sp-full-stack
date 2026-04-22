@@ -1,7 +1,7 @@
 import Database from "better-sqlite3";
 import { join } from "path";
 
-const DB_PATH = join(process.cwd(), "fsc.db");
+const DB_PATH = process.env.DATABASE_PATH || join(process.cwd(), "fsc.db");
 
 let _db: Database.Database | null = null;
 
