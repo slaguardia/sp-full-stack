@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
 import { ArrowRight, ShieldIcon, StarBadge, TankIcon } from "./insignia";
 
@@ -12,7 +11,6 @@ export function SigninForm({
   callbackUrl: string;
   initialError?: string;
 }) {
-  const router = useRouter();
   const [error, setError] = useState<string | null>(
     initialError ? "Credentials rejected. Try again, operator." : null,
   );
@@ -38,13 +36,15 @@ export function SigninForm({
       });
       if (!res || res.error) {
         setError("Credentials rejected. Try again, operator.");
+        setPending(false);
         return;
       }
-      router.replace(callbackUrl || "/");
-      router.refresh();
+      // Hard navigation ensures the new auth cookie is sent with the next
+      // request and avoids an App Router race where router.refresh() refetches
+      // /signin before router.replace() completes.
+      window.location.assign(callbackUrl || "/");
     } catch (err) {
       setError(err instanceof Error ? err.message : "Sign-in failed.");
-    } finally {
       setPending(false);
     }
   }
