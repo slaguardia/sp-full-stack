@@ -1,0 +1,3968 @@
+[
+  {
+    "code": "1005",
+    "description": "Guns, thru 30 mm",
+    "group": "10",
+    "group_name": "Weapons"
+  },
+  {
+    "code": "1010",
+    "description": "Guns, over 30 mm to 75 mm",
+    "group": "10",
+    "group_name": "Weapons"
+  },
+  {
+    "code": "1015",
+    "description": "Guns, 75 mm - 125 mm",
+    "group": "10",
+    "group_name": "Weapons"
+  },
+  {
+    "code": "1020",
+    "description": "Guns, over 125 mm - 150 mm",
+    "group": "10",
+    "group_name": "Weapons"
+  },
+  {
+    "code": "1025",
+    "description": "Guns, over 150 mm - 200 mm",
+    "group": "10",
+    "group_name": "Weapons"
+  },
+  {
+    "code": "1030",
+    "description": "Guns, over 200 mm - 300 mm",
+    "group": "10",
+    "group_name": "Weapons"
+  },
+  {
+    "code": "1035",
+    "description": "Guns, over 300 mm",
+    "group": "10",
+    "group_name": "Weapons"
+  },
+  {
+    "code": "1040",
+    "description": "Chemical Weapons and Equipment",
+    "group": "10",
+    "group_name": "Weapons"
+  },
+  {
+    "code": "1045",
+    "description": "Launchers, Torpedoes & Depth Charge",
+    "group": "10",
+    "group_name": "Weapons"
+  },
+  {
+    "code": "1055",
+    "description": "Launchers, Grenade, Rocket and Pyrotechnic",
+    "group": "10",
+    "group_name": "Weapons"
+  },
+  {
+    "code": "1070",
+    "description": "Nets and Booms, Ordnance",
+    "group": "10",
+    "group_name": "Weapons"
+  },
+  {
+    "code": "1075",
+    "description": "Degaussing and Mine Sweep Equipment",
+    "group": "10",
+    "group_name": "Weapons"
+  },
+  {
+    "code": "1080",
+    "description": "Camouflage and Deception Equipment",
+    "group": "10",
+    "group_name": "Weapons"
+  },
+  {
+    "code": "1090",
+    "description": "Assemblies Interchangeable Between Weapons in 2 or More Classes",
+    "group": "10",
+    "group_name": "Weapons"
+  },
+  {
+    "code": "1095",
+    "description": "Miscellaneous Weapons",
+    "group": "10",
+    "group_name": "Weapons"
+  },
+  {
+    "code": "1105",
+    "description": "Nuclear Bombs",
+    "group": "11",
+    "group_name": "Nuclear Ordnance"
+  },
+  {
+    "code": "1110",
+    "description": "Nuclear Projectiles",
+    "group": "11",
+    "group_name": "Nuclear Ordnance"
+  },
+  {
+    "code": "1115",
+    "description": "Nuclear Warheads and Warhead Sections",
+    "group": "11",
+    "group_name": "Nuclear Ordnance"
+  },
+  {
+    "code": "1120",
+    "description": "Nuclear Depth Charges",
+    "group": "11",
+    "group_name": "Nuclear Ordnance"
+  },
+  {
+    "code": "1125",
+    "description": "Nuclear Demolition Charges",
+    "group": "11",
+    "group_name": "Nuclear Ordnance"
+  },
+  {
+    "code": "1127",
+    "description": "Nuclear Rockets",
+    "group": "11",
+    "group_name": "Nuclear Ordnance"
+  },
+  {
+    "code": "1130",
+    "description": "Conversion Kits, Nuclear Ordnance",
+    "group": "11",
+    "group_name": "Nuclear Ordnance"
+  },
+  {
+    "code": "1135",
+    "description": "Fusing and Firing Devices, Nuclear Ordnance",
+    "group": "11",
+    "group_name": "Nuclear Ordnance"
+  },
+  {
+    "code": "1140",
+    "description": "Nuclear Components",
+    "group": "11",
+    "group_name": "Nuclear Ordnance"
+  },
+  {
+    "code": "1145",
+    "description": "Explosive and Pyrotechnic Components, Nuclear Ordnance",
+    "group": "11",
+    "group_name": "Nuclear Ordnance"
+  },
+  {
+    "code": "1190",
+    "description": "Specialized Test and Handling Equipment, Nuclear Ordnance",
+    "group": "11",
+    "group_name": "Nuclear Ordnance"
+  },
+  {
+    "code": "1195",
+    "description": "Miscellaneous Nuclear Ordnance",
+    "group": "11",
+    "group_name": "Nuclear Ordnance"
+  },
+  {
+    "code": "1210",
+    "description": "Fire Control Directors",
+    "group": "12",
+    "group_name": "Fire Control Equipment"
+  },
+  {
+    "code": "1220",
+    "description": "Fire Control Computing Sights and Devices",
+    "group": "12",
+    "group_name": "Fire Control Equipment"
+  },
+  {
+    "code": "1230",
+    "description": "Fire Control Systems, Complete",
+    "group": "12",
+    "group_name": "Fire Control Equipment"
+  },
+  {
+    "code": "1240",
+    "description": "Optical Sight and Range Equipment",
+    "group": "12",
+    "group_name": "Fire Control Equipment"
+  },
+  {
+    "code": "1250",
+    "description": "Fire Control Stabilizing Mechanisms",
+    "group": "12",
+    "group_name": "Fire Control Equipment"
+  },
+  {
+    "code": "1260",
+    "description": "Fire Control Designating and Indicating Equipment",
+    "group": "12",
+    "group_name": "Fire Control Equipment"
+  },
+  {
+    "code": "1265",
+    "description": "Fire Control Transmitting and Receiving Equipment, Except Airborne",
+    "group": "12",
+    "group_name": "Fire Control Equipment"
+  },
+  {
+    "code": "1270",
+    "description": "Aircraft Gunnery Fire Control Components",
+    "group": "12",
+    "group_name": "Fire Control Equipment"
+  },
+  {
+    "code": "1280",
+    "description": "Aircraft Bombing Fire Control Components",
+    "group": "12",
+    "group_name": "Fire Control Equipment"
+  },
+  {
+    "code": "1285",
+    "description": "Fire Control Radar Equipment, Except Airborne",
+    "group": "12",
+    "group_name": "Fire Control Equipment"
+  },
+  {
+    "code": "1287",
+    "description": "Fire Control Sonar Equipment",
+    "group": "12",
+    "group_name": "Fire Control Equipment"
+  },
+  {
+    "code": "1290",
+    "description": "Miscellaneous Fire Control Equipment",
+    "group": "12",
+    "group_name": "Fire Control Equipment"
+  },
+  {
+    "code": "1305",
+    "description": "Ammunition, through 30mm",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1310",
+    "description": "Ammunition, over 30mm through 75mm",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1315",
+    "description": "Ammunition, over 75mm through 125mm",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1320",
+    "description": "Ammunition, over 125mm",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1325",
+    "description": "Bombs",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1330",
+    "description": "Grenades",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1336",
+    "description": "Guided Missile Warheads and Explosive Components",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1337",
+    "description": "Guided Missile and Space Vehicle Explosive Propulsion Units, Solid Fuel; and Components",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1338",
+    "description": "Guided Missile and Space Vehicle Inert Propulsion Units, Solid Fuel; and Components",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1340",
+    "description": "Rockets, Rocket Ammunition and Rocket Components",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1345",
+    "description": "Land Mines",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1350",
+    "description": "Underwater Mine and Components, Inert",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1351",
+    "description": "Underwater Mines and Components, Explosive",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1352",
+    "description": "Underwater Mine Disposal Inert Devices",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1353",
+    "description": "Underwater Mine Disposal Explosive Devices",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1355",
+    "description": "Torpedoes and Components, Inert",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1356",
+    "description": "Torpedoes and Components, Explosive",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1360",
+    "description": "Depth Charges and Components, Inert",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1361",
+    "description": "Depth Charges and Components, Explosive",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1365",
+    "description": "Military Chemical Agents",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1370",
+    "description": "Pyrotechnics",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1375",
+    "description": "Demolition Materials",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1376",
+    "description": "Bulk Explosives",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1377",
+    "description": "Cartridge and Propellant Actuated Devices and Components",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1385",
+    "description": "Surface Use Explosive Ordnance Disposal Tools and Equipment",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1386",
+    "description": "Underwater Use Explosive Ordnance Disposal and Swimmer Weapons Systems Tools and Equipment",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1390",
+    "description": "Fuzes and Primers",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1395",
+    "description": "Miscellaneous Ammunition",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1398",
+    "description": "Specialized Ammunition Handling and Servicing Equipment",
+    "group": "13",
+    "group_name": "Ammunition and Explosives"
+  },
+  {
+    "code": "1410",
+    "description": "Guided Missiles",
+    "group": "14",
+    "group_name": "Guided Missiles"
+  },
+  {
+    "code": "1420",
+    "description": "Guided Missile Components",
+    "group": "14",
+    "group_name": "Guided Missiles"
+  },
+  {
+    "code": "1425",
+    "description": "Guided Missile Systems, Complete",
+    "group": "14",
+    "group_name": "Guided Missiles"
+  },
+  {
+    "code": "1427",
+    "description": "Guided Missile Sub-systems",
+    "group": "14",
+    "group_name": "Guided Missiles"
+  },
+  {
+    "code": "1430",
+    "description": "Guided Missile Remote Control Systems",
+    "group": "14",
+    "group_name": "Guided Missiles"
+  },
+  {
+    "code": "1440",
+    "description": "Launchers, Guided Missile",
+    "group": "14",
+    "group_name": "Guided Missiles"
+  },
+  {
+    "code": "1450",
+    "description": "Guided Missile Handling and Servicing Equipment",
+    "group": "14",
+    "group_name": "Guided Missiles"
+  },
+  {
+    "code": "1510",
+    "description": "Aircraft, Fixed Wing",
+    "group": "15",
+    "group_name": "Aircraft and Airframe Structural Components"
+  },
+  {
+    "code": "1520",
+    "description": "Aircraft, Rotary Wing",
+    "group": "15",
+    "group_name": "Aircraft and Airframe Structural Components"
+  },
+  {
+    "code": "1540",
+    "description": "Gliders",
+    "group": "15",
+    "group_name": "Aircraft and Airframe Structural Components"
+  },
+  {
+    "code": "1550",
+    "description": "Unmanned Aircraft",
+    "group": "15",
+    "group_name": "Aircraft and Airframe Structural Components"
+  },
+  {
+    "code": "1560",
+    "description": "Airframe Structural Components",
+    "group": "15",
+    "group_name": "Aircraft and Airframe Structural Components"
+  },
+  {
+    "code": "1610",
+    "description": "Aircraft Propellers and Components",
+    "group": "16",
+    "group_name": "Aircraft Components and Accessories"
+  },
+  {
+    "code": "1615",
+    "description": "Helicopter Rotor Blades, Drive Mechanisms and Components",
+    "group": "16",
+    "group_name": "Aircraft Components and Accessories"
+  },
+  {
+    "code": "1620",
+    "description": "Aircraft Landing Gear Components",
+    "group": "16",
+    "group_name": "Aircraft Components and Accessories"
+  },
+  {
+    "code": "1630",
+    "description": "Aircraft Wheel and Brake Systems",
+    "group": "16",
+    "group_name": "Aircraft Components and Accessories"
+  },
+  {
+    "code": "1640",
+    "description": "Aircraft Control Cable Products",
+    "group": "16",
+    "group_name": "Aircraft Components and Accessories"
+  },
+  {
+    "code": "1650",
+    "description": "Aircraft Hydraulic, Vacuum, and De-icing System Components",
+    "group": "16",
+    "group_name": "Aircraft Components and Accessories"
+  },
+  {
+    "code": "1660",
+    "description": "Aircraft Air Conditioning, Heating, and Pressurizing Equipment",
+    "group": "16",
+    "group_name": "Aircraft Components and Accessories"
+  },
+  {
+    "code": "1670",
+    "description": "Parachutes; Aerial Pick Up, Delivery, Recovery Systems; and Cargo Tie Down Equipment",
+    "group": "16",
+    "group_name": "Aircraft Components and Accessories"
+  },
+  {
+    "code": "1680",
+    "description": "Miscellaneous Aircraft Accessories and Components",
+    "group": "16",
+    "group_name": "Aircraft Components and Accessories"
+  },
+  {
+    "code": "1710",
+    "description": "Aircraft Landing Equipment",
+    "group": "17",
+    "group_name": "Aircraft Launching, Landing, and Ground Handling Equipment"
+  },
+  {
+    "code": "1720",
+    "description": "Aircraft Launching Equipment",
+    "group": "17",
+    "group_name": "Aircraft Launching, Landing, and Ground Handling Equipment"
+  },
+  {
+    "code": "1730",
+    "description": "Aircraft Ground Servicing Equipment",
+    "group": "17",
+    "group_name": "Aircraft Launching, Landing, and Ground Handling Equipment"
+  },
+  {
+    "code": "1740",
+    "description": "Airfield Specialized Trucks and Trailers",
+    "group": "17",
+    "group_name": "Aircraft Launching, Landing, and Ground Handling Equipment"
+  },
+  {
+    "code": "1810",
+    "description": "Space Vehicles",
+    "group": "18",
+    "group_name": "Space Vehicles"
+  },
+  {
+    "code": "1820",
+    "description": "Space Vehicle Components",
+    "group": "18",
+    "group_name": "Space Vehicles"
+  },
+  {
+    "code": "1830",
+    "description": "Space Vehicle Remote Control Systems",
+    "group": "18",
+    "group_name": "Space Vehicles"
+  },
+  {
+    "code": "1840",
+    "description": "Space Vehicle Launchers",
+    "group": "18",
+    "group_name": "Space Vehicles"
+  },
+  {
+    "code": "1850",
+    "description": "Space Vehicle Handling and Servicing Equipment",
+    "group": "18",
+    "group_name": "Space Vehicles"
+  },
+  {
+    "code": "1860",
+    "description": "Space Survival Equipment",
+    "group": "18",
+    "group_name": "Space Vehicles"
+  },
+  {
+    "code": "1905",
+    "description": "Combat Ships and Landing Vessels",
+    "group": "19",
+    "group_name": "Ships, Small Craft, Pontoons, and Floating Docks"
+  },
+  {
+    "code": "1910",
+    "description": "Transport Vessels, Passenger and Troop",
+    "group": "19",
+    "group_name": "Ships, Small Craft, Pontoons, and Floating Docks"
+  },
+  {
+    "code": "1915",
+    "description": "Cargo and Tanker Vessels",
+    "group": "19",
+    "group_name": "Ships, Small Craft, Pontoons, and Floating Docks"
+  },
+  {
+    "code": "1920",
+    "description": "Fishing Vessels",
+    "group": "19",
+    "group_name": "Ships, Small Craft, Pontoons, and Floating Docks"
+  },
+  {
+    "code": "1925",
+    "description": "Special Service Vessels",
+    "group": "19",
+    "group_name": "Ships, Small Craft, Pontoons, and Floating Docks"
+  },
+  {
+    "code": "1930",
+    "description": "Barges and Lighters, Cargo",
+    "group": "19",
+    "group_name": "Ships, Small Craft, Pontoons, and Floating Docks"
+  },
+  {
+    "code": "1935",
+    "description": "Barges and Lighters, Special Purpose",
+    "group": "19",
+    "group_name": "Ships, Small Craft, Pontoons, and Floating Docks"
+  },
+  {
+    "code": "1940",
+    "description": "Small Craft",
+    "group": "19",
+    "group_name": "Ships, Small Craft, Pontoons, and Floating Docks"
+  },
+  {
+    "code": "1945",
+    "description": "Pontoons and Floating Docks",
+    "group": "19",
+    "group_name": "Ships, Small Craft, Pontoons, and Floating Docks"
+  },
+  {
+    "code": "1950",
+    "description": "Floating Drydocks",
+    "group": "19",
+    "group_name": "Ships, Small Craft, Pontoons, and Floating Docks"
+  },
+  {
+    "code": "1955",
+    "description": "Dredges",
+    "group": "19",
+    "group_name": "Ships, Small Craft, Pontoons, and Floating Docks"
+  },
+  {
+    "code": "1990",
+    "description": "Miscellaneous Vessels",
+    "group": "19",
+    "group_name": "Ships, Small Craft, Pontoons, and Floating Docks"
+  },
+  {
+    "code": "2010",
+    "description": "Ship and Boat Propulsion Components",
+    "group": "20",
+    "group_name": "Ship and Marine Equipment"
+  },
+  {
+    "code": "2020",
+    "description": "Rigging and Rigging Gear",
+    "group": "20",
+    "group_name": "Ship and Marine Equipment"
+  },
+  {
+    "code": "2030",
+    "description": "Deck Machinery",
+    "group": "20",
+    "group_name": "Ship and Marine Equipment"
+  },
+  {
+    "code": "2040",
+    "description": "Marine Hardware and Hull Items",
+    "group": "20",
+    "group_name": "Ship and Marine Equipment"
+  },
+  {
+    "code": "2050",
+    "description": "Buoys",
+    "group": "20",
+    "group_name": "Ship and Marine Equipment"
+  },
+  {
+    "code": "2060",
+    "description": "Commercial Fishing Equipment",
+    "group": "20",
+    "group_name": "Ship and Marine Equipment"
+  },
+  {
+    "code": "2090",
+    "description": "Miscellaneous Ship and Marine Equipment",
+    "group": "20",
+    "group_name": "Ship and Marine Equipment"
+  },
+  {
+    "code": "2210",
+    "description": "Locomotives",
+    "group": "22",
+    "group_name": "Railway Equipment"
+  },
+  {
+    "code": "2220",
+    "description": "Rail Cars",
+    "group": "22",
+    "group_name": "Railway Equipment"
+  },
+  {
+    "code": "2230",
+    "description": "Right-of-Way Construction and Maintenance Equipment, Railroad",
+    "group": "22",
+    "group_name": "Railway Equipment"
+  },
+  {
+    "code": "2240",
+    "description": "Locomotive and Rail Car Accessories and Components",
+    "group": "22",
+    "group_name": "Railway Equipment"
+  },
+  {
+    "code": "2250",
+    "description": "Track Material, Railroad",
+    "group": "22",
+    "group_name": "Railway Equipment"
+  },
+  {
+    "code": "2305",
+    "description": "Ground Effect Vehicles",
+    "group": "23",
+    "group_name": "Ground Effect Vehicles, Motor Vehicles, Trailers, and Cycles"
+  },
+  {
+    "code": "2310",
+    "description": "Passenger Motor Vehicles",
+    "group": "23",
+    "group_name": "Ground Effect Vehicles, Motor Vehicles, Trailers, and Cycles"
+  },
+  {
+    "code": "2320",
+    "description": "Trucks and Truck Tractors, Wheeled",
+    "group": "23",
+    "group_name": "Ground Effect Vehicles, Motor Vehicles, Trailers, and Cycles"
+  },
+  {
+    "code": "2330",
+    "description": "Trailers",
+    "group": "23",
+    "group_name": "Ground Effect Vehicles, Motor Vehicles, Trailers, and Cycles"
+  },
+  {
+    "code": "2340",
+    "description": "Motorcycles, Motor Scooters, and Bicycles",
+    "group": "23",
+    "group_name": "Ground Effect Vehicles, Motor Vehicles, Trailers, and Cycles"
+  },
+  {
+    "code": "2350",
+    "description": "Combat, Assault, and Tactical Vehicles, Tracked",
+    "group": "23",
+    "group_name": "Ground Effect Vehicles, Motor Vehicles, Trailers, and Cycles"
+  },
+  {
+    "code": "2355",
+    "description": "Combat, Assault, and Tactical Vehicles, Wheeled",
+    "group": "23",
+    "group_name": "Ground Effect Vehicles, Motor Vehicles, Trailers, and Cycles"
+  },
+  {
+    "code": "2410",
+    "description": "Tractor, Full Tracked, Low Speed",
+    "group": "24",
+    "group_name": "Tractors"
+  },
+  {
+    "code": "2420",
+    "description": "Tractors, Wheeled",
+    "group": "24",
+    "group_name": "Tractors"
+  },
+  {
+    "code": "2430",
+    "description": "Tractors, Full Tracked, High Speed",
+    "group": "24",
+    "group_name": "Tractors"
+  },
+  {
+    "code": "2510",
+    "description": "Vehicular Cab, Body, and Frame Structural Components",
+    "group": "25",
+    "group_name": "Vehicular Equipment Components"
+  },
+  {
+    "code": "2520",
+    "description": "Vehicular Power Transmission Components",
+    "group": "25",
+    "group_name": "Vehicular Equipment Components"
+  },
+  {
+    "code": "2530",
+    "description": "Vehicular Brake, Steering, Axle, Wheel, and Track Components",
+    "group": "25",
+    "group_name": "Vehicular Equipment Components"
+  },
+  {
+    "code": "2540",
+    "description": "Vehicular Furniture and Accessories",
+    "group": "25",
+    "group_name": "Vehicular Equipment Components"
+  },
+  {
+    "code": "2541",
+    "description": "Weapons Systems Specific Vehicular Accessories",
+    "group": "25",
+    "group_name": "Vehicular Equipment Components"
+  },
+  {
+    "code": "2590",
+    "description": "Miscellaneous Vehicular Components",
+    "group": "25",
+    "group_name": "Vehicular Equipment Components"
+  },
+  {
+    "code": "2610",
+    "description": "Tires and Tubes, Pneumatic, Except Aircraft",
+    "group": "26",
+    "group_name": "Tires and Tubes"
+  },
+  {
+    "code": "2620",
+    "description": "Tires and Tubes, Pneumatic, Aircraft",
+    "group": "26",
+    "group_name": "Tires and Tubes"
+  },
+  {
+    "code": "2630",
+    "description": "Tires, Solid and Cushion",
+    "group": "26",
+    "group_name": "Tires and Tubes"
+  },
+  {
+    "code": "2640",
+    "description": "Tire Rebuilding and Tire and Tube Repair Materials",
+    "group": "26",
+    "group_name": "Tires and Tubes"
+  },
+  {
+    "code": "2805",
+    "description": "Gasoline Reciprocating Engines, Except Aircraft; and Components",
+    "group": "28",
+    "group_name": "Engines, Turbines, and Components"
+  },
+  {
+    "code": "2810",
+    "description": "Gasoline Reciprocating Engines, Aircraft Prime Mover; and Components",
+    "group": "28",
+    "group_name": "Engines, Turbines, and Components"
+  },
+  {
+    "code": "2815",
+    "description": "Diesel Engines and Components",
+    "group": "28",
+    "group_name": "Engines, Turbines, and Components"
+  },
+  {
+    "code": "2820",
+    "description": "Steam Engines, Reciprocating; and Components",
+    "group": "28",
+    "group_name": "Engines, Turbines, and Components"
+  },
+  {
+    "code": "2825",
+    "description": "Steam Turbines and Components",
+    "group": "28",
+    "group_name": "Engines, Turbines, and Components"
+  },
+  {
+    "code": "2830",
+    "description": "Water Turbines and Water Wheels; and Components",
+    "group": "28",
+    "group_name": "Engines, Turbines, and Components"
+  },
+  {
+    "code": "2835",
+    "description": "Gas Turbines and Jet Engines; Non-Aircraft Prime Mover, Aircraft Non-Prime Mover, and Components",
+    "group": "28",
+    "group_name": "Engines, Turbines, and Components"
+  },
+  {
+    "code": "2840",
+    "description": "Gas Turbines and Jet Engines, Aircraft, Prime Moving; and Components",
+    "group": "28",
+    "group_name": "Engines, Turbines, and Components"
+  },
+  {
+    "code": "2845",
+    "description": "Rocket Engines and Components",
+    "group": "28",
+    "group_name": "Engines, Turbines, and Components"
+  },
+  {
+    "code": "2850",
+    "description": "Gasoline Rotary Engines and Components",
+    "group": "28",
+    "group_name": "Engines, Turbines, and Components"
+  },
+  {
+    "code": "2895",
+    "description": "Miscellaneous Engines and Components",
+    "group": "28",
+    "group_name": "Engines, Turbines, and Components"
+  },
+  {
+    "code": "2910",
+    "description": "Engine Fuel System Components, Nonaircraft",
+    "group": "29",
+    "group_name": "Engine Accessories"
+  },
+  {
+    "code": "2915",
+    "description": "Engine Fuel System Components, Aircraft and Missile Prime Movers",
+    "group": "29",
+    "group_name": "Engine Accessories"
+  },
+  {
+    "code": "2920",
+    "description": "Engine Electrical System Components, Nonaircraft",
+    "group": "29",
+    "group_name": "Engine Accessories"
+  },
+  {
+    "code": "2925",
+    "description": "Engine Electrical System Components, Aircraft Prime Moving",
+    "group": "29",
+    "group_name": "Engine Accessories"
+  },
+  {
+    "code": "2930",
+    "description": "Engine Cooling System Components, Nonaircraft",
+    "group": "29",
+    "group_name": "Engine Accessories"
+  },
+  {
+    "code": "2935",
+    "description": "Engine System Cooling Components, Aircraft Prime Moving",
+    "group": "29",
+    "group_name": "Engine Accessories"
+  },
+  {
+    "code": "2940",
+    "description": "Engine Air and Oil Filters, Strainers, and Cleaners, Nonaircraft",
+    "group": "29",
+    "group_name": "Engine Accessories"
+  },
+  {
+    "code": "2945",
+    "description": "Engine Air and Oil Filters, Cleaners, Aircraft Prime Moving",
+    "group": "29",
+    "group_name": "Engine Accessories"
+  },
+  {
+    "code": "2950",
+    "description": "Turbo Supercharger and Components",
+    "group": "29",
+    "group_name": "Engine Accessories"
+  },
+  {
+    "code": "2990",
+    "description": "Miscellaneous Engine Accessories, Nonaircraft",
+    "group": "29",
+    "group_name": "Engine Accessories"
+  },
+  {
+    "code": "2995",
+    "description": "Miscellaneous Engine Accessories, Aircraft",
+    "group": "29",
+    "group_name": "Engine Accessories"
+  },
+  {
+    "code": "3010",
+    "description": "Torque Converters and Speed Changers",
+    "group": "30",
+    "group_name": "Mechanical Power Transmission Equipment"
+  },
+  {
+    "code": "3020",
+    "description": "Gears, Pulleys, Sprockets, and Transmission Chain",
+    "group": "30",
+    "group_name": "Mechanical Power Transmission Equipment"
+  },
+  {
+    "code": "3030",
+    "description": "Belting, Drive Belts, Fan Belts, and Accessories",
+    "group": "30",
+    "group_name": "Mechanical Power Transmission Equipment"
+  },
+  {
+    "code": "3040",
+    "description": "Miscellaneous Power Transmission Equipment",
+    "group": "30",
+    "group_name": "Mechanical Power Transmission Equipment"
+  },
+  {
+    "code": "3110",
+    "description": "Ball Bearings, Anti-Friction, Unmounted",
+    "group": "31",
+    "group_name": "Bearings"
+  },
+  {
+    "code": "3120",
+    "description": "Bearings, Plain, Unmounted",
+    "group": "31",
+    "group_name": "Bearings"
+  },
+  {
+    "code": "3130",
+    "description": "Bearings, Mounted",
+    "group": "31",
+    "group_name": "Bearings"
+  },
+  {
+    "code": "3140",
+    "description": "Bearings, Spherical roller",
+    "group": "31",
+    "group_name": "Bearings"
+  },
+  {
+    "code": "3210",
+    "description": "Sawmill and Planing Mill Machinery",
+    "group": "32",
+    "group_name": "Woodworking Machinery and Equipment"
+  },
+  {
+    "code": "3220",
+    "description": "Woodworking Machines",
+    "group": "32",
+    "group_name": "Woodworking Machinery and Equipment"
+  },
+  {
+    "code": "3230",
+    "description": "Tools and Attachments for Woodworking Machinery",
+    "group": "32",
+    "group_name": "Woodworking Machinery and Equipment"
+  },
+  {
+    "code": "3405",
+    "description": "Saws and Filing Machines",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3408",
+    "description": "Machining Centers and Way-Type Machines",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3410",
+    "description": "Electrical and Ultrasonic Erosion Machines",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3411",
+    "description": "Boring Machines",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3412",
+    "description": "Broaching Machines",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3413",
+    "description": "Drilling and Tapping Machines",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3414",
+    "description": "Gear Cutting and Finishing Machines",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3415",
+    "description": "Grinding Machines",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3416",
+    "description": "Lathes",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3417",
+    "description": "Milling Machines",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3418",
+    "description": "Planers and Shapers",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3419",
+    "description": "Miscellaneous Machine Tools",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3422",
+    "description": "Rolling Mills and Drawing Machines",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3424",
+    "description": "Metal Heat Treating and Non-Thermal Treating Equipment",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3426",
+    "description": "Metal Finishing Equipment",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3431",
+    "description": "Electric Arc Welding Equipment",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3432",
+    "description": "Electric Resistance Welding Equipment",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3433",
+    "description": "Gas Welding, Heat Cutting, and Metalizing Equipment",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3436",
+    "description": "Welding Positioners and Manipulators",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3438",
+    "description": "Miscellaneous Welding Equipment",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3439",
+    "description": "Miscellaneous Welding, Soldering, and Brazing Supplies and Accessories",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3441",
+    "description": "Bending and Forming Machines",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3442",
+    "description": "Hydraulic and Pneumatic Presses, Power Driven",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3443",
+    "description": "Mechanical Presses, Power Driven",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3444",
+    "description": "Manual Presses",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3445",
+    "description": "Punching and Shearing Machines",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3446",
+    "description": "Forging Machinery and Hammers",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3447",
+    "description": "Wire and Metal Ribbon Forming Machines",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3448",
+    "description": "Riveting Machines",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3449",
+    "description": "Miscellaneous Secondary Metal Forming and Cutting Machines",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3450",
+    "description": "Machine Tools, Portable",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3455",
+    "description": "Cutting Tools for Machine Tools",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3456",
+    "description": "Cutting and Forming Tools for Secondary Metalworking Machinery",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3460",
+    "description": "Machine Tool accessories",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3461",
+    "description": "Accessories for Secondary Metalworking Machinery",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3465",
+    "description": "Production Jigs, Fixtures, and Templates",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3470",
+    "description": "Machine Shop Sets, Kits, and Outfits",
+    "group": "34",
+    "group_name": "Metalworking Machinery"
+  },
+  {
+    "code": "3510",
+    "description": "Laundry and Dry Cleaning Equipment",
+    "group": "35",
+    "group_name": "Service and Trade Equipment"
+  },
+  {
+    "code": "3520",
+    "description": "Shoe Repairing Equipment",
+    "group": "35",
+    "group_name": "Service and Trade Equipment"
+  },
+  {
+    "code": "3530",
+    "description": "Industrial Sewing Machines and Mobile Textile Repair Shops",
+    "group": "35",
+    "group_name": "Service and Trade Equipment"
+  },
+  {
+    "code": "3540",
+    "description": "Wrapping and Packaging Machinery",
+    "group": "35",
+    "group_name": "Service and Trade Equipment"
+  },
+  {
+    "code": "3550",
+    "description": "Vending and Coin Operated Machines",
+    "group": "35",
+    "group_name": "Service and Trade Equipment"
+  },
+  {
+    "code": "3590",
+    "description": "Miscellaneous Service and Trade Equipment",
+    "group": "35",
+    "group_name": "Service and Trade Equipment"
+  },
+  {
+    "code": "3605",
+    "description": "Food Products Machinery and Equipment",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3610",
+    "description": "Printing, Duplicating, and Bookbinding Equipment",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3611",
+    "description": "Industrial Marking Machines",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3615",
+    "description": "Pulp and Paper Industries Machinery",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3620",
+    "description": "Rubber and Plastics Working Machinery",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3625",
+    "description": "Textile Industries Machinery",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3630",
+    "description": "Clay and Concrete Products Industries Machinery",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3635",
+    "description": "Crystal and Glass Industries Machinery",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3640",
+    "description": "Tobacco Manufacturing Machinery",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3645",
+    "description": "Leather Tanning and Leather Working Industries Machinery",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3650",
+    "description": "Chemical and Pharmaceutical Products Manufacturing Machinery",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3655",
+    "description": "Gas Generating and Dispensing Systems, Fixed or Mobile",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3660",
+    "description": "Industrial Size Reduction Machinery",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3670",
+    "description": "Specialized Semiconductor, Microcircuit, and Printed Circuit Board Manufacturing Machinery",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3680",
+    "description": "Foundry Machinery, Related Equipment and Supplies",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3685",
+    "description": "Specialized Metal Container Manufacturing Machinery and Related Equipment",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3690",
+    "description": "Specialized Ammunition and Ordnance Machinery and Related Equipment",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3693",
+    "description": "Industrial Assembly Machines",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3694",
+    "description": "Clean Work Stations, Controlled Environment, and Related Equipment",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3695",
+    "description": "Miscellaneous Special Industry Machinery",
+    "group": "36",
+    "group_name": "Special Industry Machinery"
+  },
+  {
+    "code": "3710",
+    "description": "Soil Preparation Equipment",
+    "group": "37",
+    "group_name": "Agricultural Machinery and Equipment"
+  },
+  {
+    "code": "3720",
+    "description": "Harvesting Equipment",
+    "group": "37",
+    "group_name": "Agricultural Machinery and Equipment"
+  },
+  {
+    "code": "3730",
+    "description": "Dairy, Poultry, and Livestock Equipment",
+    "group": "37",
+    "group_name": "Agricultural Machinery and Equipment"
+  },
+  {
+    "code": "3740",
+    "description": "Pest, Disease, and Frost Control Equipment",
+    "group": "37",
+    "group_name": "Agricultural Machinery and Equipment"
+  },
+  {
+    "code": "3750",
+    "description": "Gardening Implements and Tools",
+    "group": "37",
+    "group_name": "Agricultural Machinery and Equipment"
+  },
+  {
+    "code": "3760",
+    "description": "Animal Drawn Vehicles and Farm Trailers",
+    "group": "37",
+    "group_name": "Agricultural Machinery and Equipment"
+  },
+  {
+    "code": "3770",
+    "description": "Saddlery, Harness, Whips, and Related Animal Furnishings",
+    "group": "37",
+    "group_name": "Agricultural Machinery and Equipment"
+  },
+  {
+    "code": "3805",
+    "description": "Earth Moving and Excavating Equipment",
+    "group": "38",
+    "group_name": "Construction, Mining, Excavating, and Highway Maintenance Equipment"
+  },
+  {
+    "code": "3810",
+    "description": "Cranes and Crane-Shovels",
+    "group": "38",
+    "group_name": "Construction, Mining, Excavating, and Highway Maintenance Equipment"
+  },
+  {
+    "code": "3815",
+    "description": "Crane and Crane-Shovel Attachments",
+    "group": "38",
+    "group_name": "Construction, Mining, Excavating, and Highway Maintenance Equipment"
+  },
+  {
+    "code": "3820",
+    "description": "Mining, Rock Drilling, Earth Boring, and Related Equipment",
+    "group": "38",
+    "group_name": "Construction, Mining, Excavating, and Highway Maintenance Equipment"
+  },
+  {
+    "code": "3825",
+    "description": "Road Clearing, Cleaning, and Marking Equipment",
+    "group": "38",
+    "group_name": "Construction, Mining, Excavating, and Highway Maintenance Equipment"
+  },
+  {
+    "code": "3830",
+    "description": "Truck and Tractor Attachments",
+    "group": "38",
+    "group_name": "Construction, Mining, Excavating, and Highway Maintenance Equipment"
+  },
+  {
+    "code": "3835",
+    "description": "Petroleum Production and Distribution Equipment",
+    "group": "38",
+    "group_name": "Construction, Mining, Excavating, and Highway Maintenance Equipment"
+  },
+  {
+    "code": "3895",
+    "description": "Miscellaneous Construction Equipment",
+    "group": "38",
+    "group_name": "Construction, Mining, Excavating, and Highway Maintenance Equipment"
+  },
+  {
+    "code": "3910",
+    "description": "Conveyors",
+    "group": "39",
+    "group_name": "Materials Handling Equipment"
+  },
+  {
+    "code": "3915",
+    "description": "Materials Feeders",
+    "group": "39",
+    "group_name": "Materials Handling Equipment"
+  },
+  {
+    "code": "3920",
+    "description": "Material Handling Equipment, Nonself-Propelled",
+    "group": "39",
+    "group_name": "Materials Handling Equipment"
+  },
+  {
+    "code": "3930",
+    "description": "Warehouse Trucks and Tractors, Self-Propelled",
+    "group": "39",
+    "group_name": "Materials Handling Equipment"
+  },
+  {
+    "code": "3940",
+    "description": "Blocks, Tackle, Rigging, and Slings",
+    "group": "39",
+    "group_name": "Materials Handling Equipment"
+  },
+  {
+    "code": "3950",
+    "description": "Winches, Hoists, Cranes, and Derricks",
+    "group": "39",
+    "group_name": "Materials Handling Equipment"
+  },
+  {
+    "code": "3960",
+    "description": "Freight Elevators",
+    "group": "39",
+    "group_name": "Materials Handling Equipment"
+  },
+  {
+    "code": "3990",
+    "description": "Miscellaneous Materials Handling Equipment",
+    "group": "39",
+    "group_name": "Materials Handling Equipment"
+  },
+  {
+    "code": "4010",
+    "description": "Chain and Wire Rope",
+    "group": "40",
+    "group_name": "Rope, Cable, Chain, and Fittings"
+  },
+  {
+    "code": "4020",
+    "description": "Fiber Rope, Cordage, and Twine",
+    "group": "40",
+    "group_name": "Rope, Cable, Chain, and Fittings"
+  },
+  {
+    "code": "4030",
+    "description": "Fittings for Rope, Cable, and Chain",
+    "group": "40",
+    "group_name": "Rope, Cable, Chain, and Fittings"
+  },
+  {
+    "code": "4110",
+    "description": "Refrigeration Equipment",
+    "group": "41",
+    "group_name": "Refrigeration, Air Conditioning, and Air Circulating Equipment"
+  },
+  {
+    "code": "4120",
+    "description": "Air Conditioning Equipment",
+    "group": "41",
+    "group_name": "Refrigeration, Air Conditioning, and Air Circulating Equipment"
+  },
+  {
+    "code": "4130",
+    "description": "Refrigeration and Air Conditioning Components",
+    "group": "41",
+    "group_name": "Refrigeration, Air Conditioning, and Air Circulating Equipment"
+  },
+  {
+    "code": "4140",
+    "description": "Fans, Air Circulators, and Blower Equipment",
+    "group": "41",
+    "group_name": "Refrigeration, Air Conditioning, and Air Circulating Equipment"
+  },
+  {
+    "code": "4150",
+    "description": "Vortex Tubes and Other Related Cooling Tubes",
+    "group": "41",
+    "group_name": "Refrigeration, Air Conditioning, and Air Circulating Equipment"
+  },
+  {
+    "code": "4210",
+    "description": "Fire Fighting Equipment",
+    "group": "42",
+    "group_name": "Fire Fighting, Rescue, and Safety Equipment"
+  },
+  {
+    "code": "4220",
+    "description": "Marine Lifesaving and Diving Equipment",
+    "group": "42",
+    "group_name": "Fire Fighting, Rescue, and Safety Equipment"
+  },
+  {
+    "code": "4230",
+    "description": "Decontaminating and Impregnating Equipment",
+    "group": "42",
+    "group_name": "Fire Fighting, Rescue, and Safety Equipment"
+  },
+  {
+    "code": "4235",
+    "description": "Hazardous Material Spill Containment and Clean-up Equipment and Material",
+    "group": "42",
+    "group_name": "Fire Fighting, Rescue, and Safety Equipment"
+  },
+  {
+    "code": "4240",
+    "description": "Safety and Rescue Equipment",
+    "group": "42",
+    "group_name": "Fire Fighting, Rescue, and Safety Equipment"
+  },
+  {
+    "code": "4250",
+    "description": "Recycling and Reclamation Equipment",
+    "group": "42",
+    "group_name": "Fire Fighting, Rescue, and Safety Equipment"
+  },
+  {
+    "code": "4310",
+    "description": "Compressors and Vacuum Pumps",
+    "group": "43",
+    "group_name": "Pumps and Compressors"
+  },
+  {
+    "code": "4320",
+    "description": "Power and Hand Pumps",
+    "group": "43",
+    "group_name": "Pumps and Compressors"
+  },
+  {
+    "code": "4330",
+    "description": "Centrifugals, Separators, and Pressure and Vacuum Filters",
+    "group": "43",
+    "group_name": "Pumps and Compressors"
+  },
+  {
+    "code": "4410",
+    "description": "Industrial Boilers",
+    "group": "44",
+    "group_name": "Furnace, Steam Plant, Drying Equipment, and Nuclear Reactors"
+  },
+  {
+    "code": "4420",
+    "description": "Heat Exchangers and Steam Condensers",
+    "group": "44",
+    "group_name": "Furnace, Steam Plant, Drying Equipment, and Nuclear Reactors"
+  },
+  {
+    "code": "4430",
+    "description": "Industrial Furnaces, Kilns, Lehrs, and Ovens",
+    "group": "44",
+    "group_name": "Furnace, Steam Plant, Drying Equipment, and Nuclear Reactors"
+  },
+  {
+    "code": "4440",
+    "description": "Driers, Dehydrators, and Anhydrators",
+    "group": "44",
+    "group_name": "Furnace, Steam Plant, Drying Equipment, and Nuclear Reactors"
+  },
+  {
+    "code": "4460",
+    "description": "Air Purification Equipment",
+    "group": "44",
+    "group_name": "Furnace, Steam Plant, Drying Equipment, and Nuclear Reactors"
+  },
+  {
+    "code": "4470",
+    "description": "Nuclear Reactors",
+    "group": "44",
+    "group_name": "Furnace, Steam Plant, Drying Equipment, and Nuclear Reactors"
+  },
+  {
+    "code": "4510",
+    "description": "Plumbing Fixtures and Accessories",
+    "group": "45",
+    "group_name": "Plumbing, Heating, and Sanitation Equipment"
+  },
+  {
+    "code": "4520",
+    "description": "Space and Water Heating Equipment",
+    "group": "45",
+    "group_name": "Plumbing, Heating, and Sanitation Equipment"
+  },
+  {
+    "code": "4530",
+    "description": "Fuel Burning Equipment Units",
+    "group": "45",
+    "group_name": "Plumbing, Heating, and Sanitation Equipment"
+  },
+  {
+    "code": "4540",
+    "description": "Waste Disposal Equipment",
+    "group": "45",
+    "group_name": "Plumbing, Heating, and Sanitation Equipment"
+  },
+  {
+    "code": "4610",
+    "description": "Water Purification Equipment",
+    "group": "46",
+    "group_name": "Water Purification and Sewage Treatment Equipment"
+  },
+  {
+    "code": "4620",
+    "description": "Water Distillation Equipment, Marine and Industrial",
+    "group": "46",
+    "group_name": "Water Purification and Sewage Treatment Equipment"
+  },
+  {
+    "code": "4630",
+    "description": "Sewage Treatment Equipment",
+    "group": "46",
+    "group_name": "Water Purification and Sewage Treatment Equipment"
+  },
+  {
+    "code": "4710",
+    "description": "Pipe, Tube and Rigid Tubing",
+    "group": "47",
+    "group_name": "Pipe, Tubing, Hose, and Fittings"
+  },
+  {
+    "code": "4720",
+    "description": "Hose and Flexible Tubing",
+    "group": "47",
+    "group_name": "Pipe, Tubing, Hose, and Fittings"
+  },
+  {
+    "code": "4730",
+    "description": "Hose, Pipe, Tube, Lubrication, and Railing Fittings",
+    "group": "47",
+    "group_name": "Pipe, Tubing, Hose, and Fittings"
+  },
+  {
+    "code": "4810",
+    "description": "Valves, Powered",
+    "group": "48",
+    "group_name": "Valves"
+  },
+  {
+    "code": "4820",
+    "description": "Valves, Nonpowered",
+    "group": "48",
+    "group_name": "Valves"
+  },
+  {
+    "code": "4910",
+    "description": "Motor Vehicle Maintenance and Repair Shop Specialized Equipment",
+    "group": "49",
+    "group_name": "Maintenance and Repair Shop Equipment"
+  },
+  {
+    "code": "4920",
+    "description": "Aircraft Maintenance and Repair Shop Specialized Equipment",
+    "group": "49",
+    "group_name": "Maintenance and Repair Shop Equipment"
+  },
+  {
+    "code": "4921",
+    "description": "Torpedo Maintenance, Repair, and Checkout Specialized Equipment",
+    "group": "49",
+    "group_name": "Maintenance and Repair Shop Equipment"
+  },
+  {
+    "code": "4923",
+    "description": "Depth Charges and Underwater Mines Maintenance, Repair, and Checkout Specialized Equipment",
+    "group": "49",
+    "group_name": "Maintenance and Repair Shop Equipment"
+  },
+  {
+    "code": "4925",
+    "description": "Ammunition Maintenance, Repair, and Checkout Specialized Equipment",
+    "group": "49",
+    "group_name": "Maintenance and Repair Shop Equipment"
+  },
+  {
+    "code": "4927",
+    "description": "Rocket Maintenance, Repair and Checkout Specialized Equipment",
+    "group": "49",
+    "group_name": "Maintenance and Repair Shop Equipment"
+  },
+  {
+    "code": "4930",
+    "description": "Lubrication and Fuel Dispensing Equipment",
+    "group": "49",
+    "group_name": "Maintenance and Repair Shop Equipment"
+  },
+  {
+    "code": "4931",
+    "description": "Fire Control Maintenance and Repair Shop Specialized Equipment",
+    "group": "49",
+    "group_name": "Maintenance and Repair Shop Equipment"
+  },
+  {
+    "code": "4933",
+    "description": "Weapons Maintenance and Repair Shop Specialized Equipment",
+    "group": "49",
+    "group_name": "Maintenance and Repair Shop Equipment"
+  },
+  {
+    "code": "4935",
+    "description": "Guided Missile Maintenance, Repair, and Checkout Specialized Equipment",
+    "group": "49",
+    "group_name": "Maintenance and Repair Shop Equipment"
+  },
+  {
+    "code": "4940",
+    "description": "Miscellaneous Maintenance and Repair Shop Specialized Equipment",
+    "group": "49",
+    "group_name": "Maintenance and Repair Shop Equipment"
+  },
+  {
+    "code": "4960",
+    "description": "Space Vehicle Maintenance, Repair, and Checkout Specialized Equipment",
+    "group": "49",
+    "group_name": "Maintenance and Repair Shop Equipment"
+  },
+  {
+    "code": "4970",
+    "description": "Multiple Guided Weapons, Specialized Maintenance and Repair Shop Equipment",
+    "group": "49",
+    "group_name": "Maintenance and Repair Shop Equipment"
+  },
+  {
+    "code": "5110",
+    "description": "Hand Tools, Edged, Non-powered",
+    "group": "51",
+    "group_name": "Hand Tools"
+  },
+  {
+    "code": "5120",
+    "description": "Hand Tools, Non-edged, Non-powered",
+    "group": "51",
+    "group_name": "Hand Tools"
+  },
+  {
+    "code": "5130",
+    "description": "Hand Tools, Power Driven",
+    "group": "51",
+    "group_name": "Hand Tools"
+  },
+  {
+    "code": "5133",
+    "description": "Drill Bits, Counterbores, and Countersinks: Hand and Machine",
+    "group": "51",
+    "group_name": "Hand Tools"
+  },
+  {
+    "code": "5136",
+    "description": "Taps, Dies, and Collets; Hand and Machine",
+    "group": "51",
+    "group_name": "Hand Tools"
+  },
+  {
+    "code": "5140",
+    "description": "Tool and Hardware Boxes",
+    "group": "51",
+    "group_name": "Hand Tools"
+  },
+  {
+    "code": "5180",
+    "description": "Sets, Kits, and Outfits of Hand Tools",
+    "group": "51",
+    "group_name": "Hand Tools"
+  },
+  {
+    "code": "5210",
+    "description": "Measuring Tools, Craftsmen's",
+    "group": "52",
+    "group_name": "Measuring Tools"
+  },
+  {
+    "code": "5220",
+    "description": "Inspection Gages and Precision Layout Tools",
+    "group": "52",
+    "group_name": "Measuring Tools"
+  },
+  {
+    "code": "5280",
+    "description": "Sets, Kits, and Outfits of Measuring Tools",
+    "group": "52",
+    "group_name": "Measuring Tools"
+  },
+  {
+    "code": "5305",
+    "description": "Screws",
+    "group": "53",
+    "group_name": "Hardware and Abrasives"
+  },
+  {
+    "code": "5306",
+    "description": "Bolts",
+    "group": "53",
+    "group_name": "Hardware and Abrasives"
+  },
+  {
+    "code": "5307",
+    "description": "Studs",
+    "group": "53",
+    "group_name": "Hardware and Abrasives"
+  },
+  {
+    "code": "5310",
+    "description": "Nuts and Washers",
+    "group": "53",
+    "group_name": "Hardware and Abrasives"
+  },
+  {
+    "code": "5315",
+    "description": "Nails, Machine Keys, and Pins",
+    "group": "53",
+    "group_name": "Hardware and Abrasives"
+  },
+  {
+    "code": "5320",
+    "description": "Rivets",
+    "group": "53",
+    "group_name": "Hardware and Abrasives"
+  },
+  {
+    "code": "5325",
+    "description": "Fastening Devices",
+    "group": "53",
+    "group_name": "Hardware and Abrasives"
+  },
+  {
+    "code": "5330",
+    "description": "Packing and Gasket Materials",
+    "group": "53",
+    "group_name": "Hardware and Abrasives"
+  },
+  {
+    "code": "5331",
+    "description": "O-Ring",
+    "group": "53",
+    "group_name": "Hardware and Abrasives"
+  },
+  {
+    "code": "5335",
+    "description": "Metal Screening",
+    "group": "53",
+    "group_name": "Hardware and Abrasives"
+  },
+  {
+    "code": "5340",
+    "description": "Hardware, Commercial",
+    "group": "53",
+    "group_name": "Hardware and Abrasives"
+  },
+  {
+    "code": "5341",
+    "description": "Brackets",
+    "group": "53",
+    "group_name": "Hardware and Abrasives"
+  },
+  {
+    "code": "5342",
+    "description": "Hardware, Weapon System",
+    "group": "53",
+    "group_name": "Hardware and Abrasives"
+  },
+  {
+    "code": "5345",
+    "description": "Disks and Stones, Abrasive",
+    "group": "53",
+    "group_name": "Hardware and Abrasives"
+  },
+  {
+    "code": "5350",
+    "description": "Abrasive Materials",
+    "group": "53",
+    "group_name": "Hardware and Abrasives"
+  },
+  {
+    "code": "5355",
+    "description": "Knobs and Pointers",
+    "group": "53",
+    "group_name": "Hardware and Abrasives"
+  },
+  {
+    "code": "5360",
+    "description": "Coil, Flat, Leaf, and Wire Springs",
+    "group": "53",
+    "group_name": "Hardware and Abrasives"
+  },
+  {
+    "code": "5365",
+    "description": "Bushings, Rings, Shims, and Spacers",
+    "group": "53",
+    "group_name": "Hardware and Abrasives"
+  },
+  {
+    "code": "5410",
+    "description": "Prefabricated and Portable Buildings",
+    "group": "54",
+    "group_name": "Prefabricated Structures and Scaffolding"
+  },
+  {
+    "code": "5411",
+    "description": "Rigid Wall Shelters",
+    "group": "54",
+    "group_name": "Prefabricated Structures and Scaffolding"
+  },
+  {
+    "code": "5419",
+    "description": "Collective Modular Support System",
+    "group": "54",
+    "group_name": "Prefabricated Structures and Scaffolding"
+  },
+  {
+    "code": "5420",
+    "description": "Bridges, Fixed and Floating",
+    "group": "54",
+    "group_name": "Prefabricated Structures and Scaffolding"
+  },
+  {
+    "code": "5430",
+    "description": "Storage Tanks",
+    "group": "54",
+    "group_name": "Prefabricated Structures and Scaffolding"
+  },
+  {
+    "code": "5440",
+    "description": "Scaffolding Equipment and Concrete Forms",
+    "group": "54",
+    "group_name": "Prefabricated Structures and Scaffolding"
+  },
+  {
+    "code": "5445",
+    "description": "Prefabricated Tower Structures",
+    "group": "54",
+    "group_name": "Prefabricated Structures and Scaffolding"
+  },
+  {
+    "code": "5450",
+    "description": "Miscellaneous Prefabricated Structures",
+    "group": "54",
+    "group_name": "Prefabricated Structures and Scaffolding"
+  },
+  {
+    "code": "5510",
+    "description": "Lumber and Related Basic Wood Materials",
+    "group": "55",
+    "group_name": "Lumber, Millwork, Plywood, and Veneer"
+  },
+  {
+    "code": "5520",
+    "description": "Millwork",
+    "group": "55",
+    "group_name": "Lumber, Millwork, Plywood, and Veneer"
+  },
+  {
+    "code": "5530",
+    "description": "Plywood and Veneer",
+    "group": "55",
+    "group_name": "Lumber, Millwork, Plywood, and Veneer"
+  },
+  {
+    "code": "5610",
+    "description": "Mineral Construction Materials, Bulk",
+    "group": "56",
+    "group_name": "Construction and Building Materials"
+  },
+  {
+    "code": "5620",
+    "description": "Tile, Brick and Block",
+    "group": "56",
+    "group_name": "Construction and Building Materials"
+  },
+  {
+    "code": "5630",
+    "description": "Pipe and Conduit, Nonmetallic",
+    "group": "56",
+    "group_name": "Construction and Building Materials"
+  },
+  {
+    "code": "5640",
+    "description": "Wallboard, Building Paper, and Thermal Insulation Materials",
+    "group": "56",
+    "group_name": "Construction and Building Materials"
+  },
+  {
+    "code": "5650",
+    "description": "Roofing and Siding Materials",
+    "group": "56",
+    "group_name": "Construction and Building Materials"
+  },
+  {
+    "code": "5660",
+    "description": "Fencing, Fences, Gates and Components",
+    "group": "56",
+    "group_name": "Construction and Building Materials"
+  },
+  {
+    "code": "5670",
+    "description": "Building Components, Prefabricated",
+    "group": "56",
+    "group_name": "Construction and Building Materials"
+  },
+  {
+    "code": "5675",
+    "description": "Non-wood Construction Lumber and Related Materials",
+    "group": "56",
+    "group_name": "Construction and Building Materials"
+  },
+  {
+    "code": "5680",
+    "description": "Miscellaneous Construction Materials",
+    "group": "56",
+    "group_name": "Construction and Building Materials"
+  },
+  {
+    "code": "5805",
+    "description": "Telephone and Telegraph Equipment",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5810",
+    "description": "Communications Security Equipment and Components",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5811",
+    "description": "Other Cryptologic Equipment and Components",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5815",
+    "description": "Teletype and Facsimile Equipment",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5820",
+    "description": "Radio and Television Communication Equipment, Except Airborne",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5821",
+    "description": "Radio and Television Communication Equipment, Airborne",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5825",
+    "description": "Radio Navigation Equipment, Except Airborne",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5826",
+    "description": "Radio Navigation Equipment, Airborne",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5830",
+    "description": "Intercommunication and Public Address Systems, Except Airborne",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5831",
+    "description": "Intercommunication and Public Address Systems, Airborne",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5835",
+    "description": "Sound Recording and Reproducing Equipment",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5836",
+    "description": "Video Recording and Reproducing Equipment",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5840",
+    "description": "Radar Equipment, Except Airborne",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5841",
+    "description": "Radar Equipment, Airborne",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5845",
+    "description": "Underwater Sound Equipment",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5850",
+    "description": "Visible and Invisible Light Communication Equipment",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5855",
+    "description": "Night Vision Equipment, Emitted and Reflected Radiation",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5860",
+    "description": "Stimulated Coherent Radiation Devices, Components, and Accessories",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5865",
+    "description": "Electronic Countermeasures, Counter-Countermeasures, and Quick Reaction Capability Equipment",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5895",
+    "description": "Miscellaneous Communication Equipment",
+    "group": "58",
+    "group_name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "code": "5905",
+    "description": "Resistors",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5910",
+    "description": "Capacitors",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5915",
+    "description": "Filters and Networks",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5920",
+    "description": "Fuses, Arrestors, Absorbers, and Protectors",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5925",
+    "description": "Circuit Breakers",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5930",
+    "description": "Switches",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5935",
+    "description": "Connectors, Electrical",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5940",
+    "description": "Lugs, Terminals, and Terminal Strips",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5945",
+    "description": "Relays and Solenoids",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5950",
+    "description": "Coils and Transformers",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5955",
+    "description": "Oscillators and Piezoelectric Crystals",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5960",
+    "description": "Electron Tubes and Associated Hardware",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5961",
+    "description": "Semiconductor Devices and Associated Hardware",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5962",
+    "description": "Microcircuits, Electronic",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5963",
+    "description": "Electronic Modules",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5965",
+    "description": "Headsets, Handsets, Microphones and Speakers",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5970",
+    "description": "Electrical Insulators and Insulating Materials",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5975",
+    "description": "Electrical Hardware and Supplies",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5977",
+    "description": "Electrical Contact Brushes and Electrodes",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5980",
+    "description": "Optoelectronic Devices and Associated Hardware",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5985",
+    "description": "Antennas, Waveguides, and Related Equipment",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5990",
+    "description": "Synchros and Resolvers",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5995",
+    "description": "Cable, Cord, and Wire Assemblies: Communication Equipment",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5996",
+    "description": "Amplifiers",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5998",
+    "description": "Electrical and Electronic assemblies, Boards, Cards, and Associated Hardware",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "5999",
+    "description": "Miscellaneous Electrical and Electronic Components",
+    "group": "59",
+    "group_name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "code": "6004",
+    "description": "Rotary Joints",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6005",
+    "description": "Couplers, Splitters, and Mixers",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6006",
+    "description": "Attenuators",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6007",
+    "description": "Filters",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6008",
+    "description": "Optical Multiplexers/Demultiplexers",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6010",
+    "description": "Fiber Optic Conductors",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6015",
+    "description": "Fiber Optic Cables",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6020",
+    "description": "Fiber Optic Cable Assemblies and Harnesses",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6021",
+    "description": "Fiber Optic Switches",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6025",
+    "description": "Fiber Optic Transmitters",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6026",
+    "description": "Fiber Optic Receivers",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6029",
+    "description": "Optical Repeaters",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6030",
+    "description": "Fiber Optic Devices",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6031",
+    "description": "Integrated Optical Circuits",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6032",
+    "description": "Fiber Optic Light Sources and Photo Detectors",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6033",
+    "description": "Fiber Optic Photo Detectors",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6034",
+    "description": "Fiber Optic Modulators/Demodulators",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6035",
+    "description": "Fiber Optic Light Transfer and Image Transfer Devices",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6040",
+    "description": "Fiber Optic Sensors",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6050",
+    "description": "Fiber Optic Passive Devices",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6060",
+    "description": "Fiber Optic Interconnectors",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6070",
+    "description": "Fiber Optic Accessories and Supplies",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6080",
+    "description": "Fiber Optic Kits and Sets",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6099",
+    "description": "Miscellaneous Fiber Optic Components",
+    "group": "60",
+    "group_name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "code": "6105",
+    "description": "Motors, Electrical",
+    "group": "61",
+    "group_name": "Electric Wire and Power and Distribution Equipment"
+  },
+  {
+    "code": "6110",
+    "description": "Electrical Control Equipment",
+    "group": "61",
+    "group_name": "Electric Wire and Power and Distribution Equipment"
+  },
+  {
+    "code": "6115",
+    "description": "Generators and Generator Sets, Electrical",
+    "group": "61",
+    "group_name": "Electric Wire and Power and Distribution Equipment"
+  },
+  {
+    "code": "6116",
+    "description": "Fuel Cell Power Units, Components, and Accessories",
+    "group": "61",
+    "group_name": "Electric Wire and Power and Distribution Equipment"
+  },
+  {
+    "code": "6117",
+    "description": "Solar Electric Power Systems",
+    "group": "61",
+    "group_name": "Electric Wire and Power and Distribution Equipment"
+  },
+  {
+    "code": "6120",
+    "description": "Transformers: Distribution and Power Station",
+    "group": "61",
+    "group_name": "Electric Wire and Power and Distribution Equipment"
+  },
+  {
+    "code": "6125",
+    "description": "Converters, Electrical, Rotating",
+    "group": "61",
+    "group_name": "Electric Wire and Power and Distribution Equipment"
+  },
+  {
+    "code": "6130",
+    "description": "Converters, Electrical, Nonrotating",
+    "group": "61",
+    "group_name": "Electric Wire and Power and Distribution Equipment"
+  },
+  {
+    "code": "6135",
+    "description": "Batteries, Non-rechargeable",
+    "group": "61",
+    "group_name": "Electric Wire and Power and Distribution Equipment"
+  },
+  {
+    "code": "6140",
+    "description": "Batteries, Rechargeable",
+    "group": "61",
+    "group_name": "Electric Wire and Power and Distribution Equipment"
+  },
+  {
+    "code": "6145",
+    "description": "Wire and Cable, Electrical",
+    "group": "61",
+    "group_name": "Electric Wire and Power and Distribution Equipment"
+  },
+  {
+    "code": "6150",
+    "description": "Miscellaneous Electric Power and Distribution Equipment",
+    "group": "61",
+    "group_name": "Electric Wire and Power and Distribution Equipment"
+  },
+  {
+    "code": "6160",
+    "description": "Miscellaneous Battery Retaining Fixtures, Liners and Ancillary Items",
+    "group": "61",
+    "group_name": "Electric Wire and Power and Distribution Equipment"
+  },
+  {
+    "code": "6210",
+    "description": "Indoor and Outdoor Electric Lighting Fixtures",
+    "group": "62",
+    "group_name": "Lighting Fixtures and Lamps"
+  },
+  {
+    "code": "6220",
+    "description": "Electric Vehicular Lights and Fixtures",
+    "group": "62",
+    "group_name": "Lighting Fixtures and Lamps"
+  },
+  {
+    "code": "6230",
+    "description": "Electric Portable and Hand Lighting Equipment",
+    "group": "62",
+    "group_name": "Lighting Fixtures and Lamps"
+  },
+  {
+    "code": "6240",
+    "description": "Electric Lamps",
+    "group": "62",
+    "group_name": "Lighting Fixtures and Lamps"
+  },
+  {
+    "code": "6250",
+    "description": "Ballasts, Lampholders, and Starters",
+    "group": "62",
+    "group_name": "Lighting Fixtures and Lamps"
+  },
+  {
+    "code": "6260",
+    "description": "Non-Electrical Lighting Fixtures",
+    "group": "62",
+    "group_name": "Lighting Fixtures and Lamps"
+  },
+  {
+    "code": "6310",
+    "description": "Traffic and Transit Signal Systems",
+    "group": "63",
+    "group_name": "Alarm, Signal, and Security Detection Systems"
+  },
+  {
+    "code": "6320",
+    "description": "Shipboard Alarm and Signal Systems",
+    "group": "63",
+    "group_name": "Alarm, Signal, and Security Detection Systems"
+  },
+  {
+    "code": "6330",
+    "description": "Railroad Signal and Warning Devices",
+    "group": "63",
+    "group_name": "Alarm, Signal, and Security Detection Systems"
+  },
+  {
+    "code": "6340",
+    "description": "Aircraft Alarm and Signal Systems",
+    "group": "63",
+    "group_name": "Alarm, Signal, and Security Detection Systems"
+  },
+  {
+    "code": "6350",
+    "description": "Miscellaneous Alarm, Signal, and Security Detection Systems",
+    "group": "63",
+    "group_name": "Alarm, Signal, and Security Detection Systems"
+  },
+  {
+    "code": "6505",
+    "description": "Drugs and Biologicals",
+    "group": "65",
+    "group_name": "Medical, Dental, and Veterinary Equipment and Supplies"
+  },
+  {
+    "code": "6508",
+    "description": "Medicated Cosmetics and Toiletries",
+    "group": "65",
+    "group_name": "Medical, Dental, and Veterinary Equipment and Supplies"
+  },
+  {
+    "code": "6509",
+    "description": "Drugs and Biologicals, Veterinary Use",
+    "group": "65",
+    "group_name": "Medical, Dental, and Veterinary Equipment and Supplies"
+  },
+  {
+    "code": "6510",
+    "description": "Surgical Dressing Materials",
+    "group": "65",
+    "group_name": "Medical, Dental, and Veterinary Equipment and Supplies"
+  },
+  {
+    "code": "6515",
+    "description": "Medical and Surgical Instruments, Equipment, and Supplies",
+    "group": "65",
+    "group_name": "Medical, Dental, and Veterinary Equipment and Supplies"
+  },
+  {
+    "code": "6520",
+    "description": "Dental Instruments, Equipment, and Supplies",
+    "group": "65",
+    "group_name": "Medical, Dental, and Veterinary Equipment and Supplies"
+  },
+  {
+    "code": "6525",
+    "description": "Imaging Equipment and Supplies: Medical, Dental, Veterinary",
+    "group": "65",
+    "group_name": "Medical, Dental, and Veterinary Equipment and Supplies"
+  },
+  {
+    "code": "6530",
+    "description": "Hospital Furniture, Equipment, Utensils, and Supplies",
+    "group": "65",
+    "group_name": "Medical, Dental, and Veterinary Equipment and Supplies"
+  },
+  {
+    "code": "6532",
+    "description": "Hospital and Surgical Clothing and Related Special Purpose Items",
+    "group": "65",
+    "group_name": "Medical, Dental, and Veterinary Equipment and Supplies"
+  },
+  {
+    "code": "6540",
+    "description": "Ophthalmic Instruments, Equipment, and Supplies",
+    "group": "65",
+    "group_name": "Medical, Dental, and Veterinary Equipment and Supplies"
+  },
+  {
+    "code": "6545",
+    "description": "Replenishable Field Medical Sets, Kits, and Outfits",
+    "group": "65",
+    "group_name": "Medical, Dental, and Veterinary Equipment and Supplies"
+  },
+  {
+    "code": "6550",
+    "description": "In Vitro Diagnostic Substances, Reagents, Test Kits and Sets",
+    "group": "65",
+    "group_name": "Medical, Dental, and Veterinary Equipment and Supplies"
+  },
+  {
+    "code": "6605",
+    "description": "Navigational Instruments",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6610",
+    "description": "Flight Instruments",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6615",
+    "description": "Automatic Pilot Mechanisms and Airborne Gyro Components",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6620",
+    "description": "Engine Instruments",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6625",
+    "description": "Electrical and Electronic Properties Measuring and Testing Instruments",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6630",
+    "description": "Chemical Analysis Instruments",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6635",
+    "description": "Physical Properties Testing and Inspection",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6636",
+    "description": "Environmental Chambers and Related Equipment",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6640",
+    "description": "Laboratory Equipment and Supplies",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6645",
+    "description": "Time Measuring Instruments",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6650",
+    "description": "Optical Instruments, Test Equipment, Components and Accessories",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6655",
+    "description": "Geophysical Instruments",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6660",
+    "description": "Meteorological Instruments and Apparatus",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6665",
+    "description": "Hazard-Detecting Instruments and Apparatus",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6670",
+    "description": "Scales and Balances",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6675",
+    "description": "Drafting, Surveying, and Mapping Instruments",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6680",
+    "description": "Liquid and Gas Flow, Liquid Level, and Mechanical Motion Measuring Instruments",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6685",
+    "description": "Pressure, Temperature, and Humidity Measuring and Controlling Instruments",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6695",
+    "description": "Combination and Miscellaneous Instruments",
+    "group": "66",
+    "group_name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "code": "6710",
+    "description": "Cameras, Motion Picture",
+    "group": "67",
+    "group_name": "Photographic Equipment"
+  },
+  {
+    "code": "6720",
+    "description": "Cameras, Still Picture",
+    "group": "67",
+    "group_name": "Photographic Equipment"
+  },
+  {
+    "code": "6730",
+    "description": "Photographic Projection Equipment",
+    "group": "67",
+    "group_name": "Photographic Equipment"
+  },
+  {
+    "code": "6740",
+    "description": "Photographic Developing and Finishing Equipment",
+    "group": "67",
+    "group_name": "Photographic Equipment"
+  },
+  {
+    "code": "6750",
+    "description": "Photographic Supplies",
+    "group": "67",
+    "group_name": "Photographic Equipment"
+  },
+  {
+    "code": "6760",
+    "description": "Photographic Equipment and Accessories",
+    "group": "67",
+    "group_name": "Photographic Equipment"
+  },
+  {
+    "code": "6770",
+    "description": "Film, Processed",
+    "group": "67",
+    "group_name": "Photographic Equipment"
+  },
+  {
+    "code": "6780",
+    "description": "Photographic Sets, Kits, and Outfits",
+    "group": "67",
+    "group_name": "Photographic Equipment"
+  },
+  {
+    "code": "6810",
+    "description": "Chemicals",
+    "group": "68",
+    "group_name": "Chemicals and Chemical Products"
+  },
+  {
+    "code": "6820",
+    "description": "Dyes",
+    "group": "68",
+    "group_name": "Chemicals and Chemical Products"
+  },
+  {
+    "code": "6830",
+    "description": "Gases: Compressed and Liquefied",
+    "group": "68",
+    "group_name": "Chemicals and Chemical Products"
+  },
+  {
+    "code": "6840",
+    "description": "Pest Control Agents and Disinfectants",
+    "group": "68",
+    "group_name": "Chemicals and Chemical Products"
+  },
+  {
+    "code": "6850",
+    "description": "Miscellaneous Chemical Specialties",
+    "group": "68",
+    "group_name": "Chemicals and Chemical Products"
+  },
+  {
+    "code": "6910",
+    "description": "Training Aids",
+    "group": "69",
+    "group_name": "Training Aids and Devices"
+  },
+  {
+    "code": "6920",
+    "description": "Armament Training Devices",
+    "group": "69",
+    "group_name": "Training Aids and Devices"
+  },
+  {
+    "code": "6930",
+    "description": "Operation Training Devices",
+    "group": "69",
+    "group_name": "Training Aids and Devices"
+  },
+  {
+    "code": "6940",
+    "description": "Communication Training Devices",
+    "group": "69",
+    "group_name": "Training Aids and Devices"
+  },
+  {
+    "code": "7010",
+    "description": "ADPE System Configuration",
+    "group": "70",
+    "group_name": "ADP Equipment, Software, Supplies, and Support Equipment"
+  },
+  {
+    "code": "7020",
+    "description": "ADP Central Processing Unit (CPU, Computer), Analog",
+    "group": "70",
+    "group_name": "ADP Equipment, Software, Supplies, and Support Equipment"
+  },
+  {
+    "code": "7021",
+    "description": "ADP Central Processing Unit (CPU, Computer), Digital",
+    "group": "70",
+    "group_name": "ADP Equipment, Software, Supplies, and Support Equipment"
+  },
+  {
+    "code": "7022",
+    "description": "ADP Central Processing Unit (CPU, Computer), Hybrid",
+    "group": "70",
+    "group_name": "ADP Equipment, Software, Supplies, and Support Equipment"
+  },
+  {
+    "code": "7025",
+    "description": "ADP Input/Output and Storage Devices",
+    "group": "70",
+    "group_name": "ADP Equipment, Software, Supplies, and Support Equipment"
+  },
+  {
+    "code": "7030",
+    "description": "ADP Software",
+    "group": "70",
+    "group_name": "ADP Equipment, Software, Supplies, and Support Equipment"
+  },
+  {
+    "code": "7035",
+    "description": "ADP Support Equipment",
+    "group": "70",
+    "group_name": "ADP Equipment, Software, Supplies, and Support Equipment"
+  },
+  {
+    "code": "7040",
+    "description": "Punched Card Equipment",
+    "group": "70",
+    "group_name": "ADP Equipment, Software, Supplies, and Support Equipment"
+  },
+  {
+    "code": "7042",
+    "description": "Mini and Micro Computer Control Devices",
+    "group": "70",
+    "group_name": "ADP Equipment, Software, Supplies, and Support Equipment"
+  },
+  {
+    "code": "7045",
+    "description": "ADP Supplies",
+    "group": "70",
+    "group_name": "ADP Equipment, Software, Supplies, and Support Equipment"
+  },
+  {
+    "code": "7050",
+    "description": "ADP Components",
+    "group": "70",
+    "group_name": "ADP Equipment, Software, Supplies, and Support Equipment"
+  },
+  {
+    "code": "7105",
+    "description": "Household Furniture",
+    "group": "71",
+    "group_name": "Furniture"
+  },
+  {
+    "code": "7110",
+    "description": "Office Furniture",
+    "group": "71",
+    "group_name": "Furniture"
+  },
+  {
+    "code": "7125",
+    "description": "Cabinets, Lockers, Bins, and Shelving",
+    "group": "71",
+    "group_name": "Furniture"
+  },
+  {
+    "code": "7195",
+    "description": "Miscellaneous Furniture and Fixtures",
+    "group": "71",
+    "group_name": "Furniture"
+  },
+  {
+    "code": "7210",
+    "description": "Household Furnishings",
+    "group": "72",
+    "group_name": "Household and Commercial Furnishings and Appliances"
+  },
+  {
+    "code": "7220",
+    "description": "Floor Coverings",
+    "group": "72",
+    "group_name": "Household and Commercial Furnishings and Appliances"
+  },
+  {
+    "code": "7230",
+    "description": "Draperies, Awnings, and Shades",
+    "group": "72",
+    "group_name": "Household and Commercial Furnishings and Appliances"
+  },
+  {
+    "code": "7240",
+    "description": "Household and Commercial Utility Containers",
+    "group": "72",
+    "group_name": "Household and Commercial Furnishings and Appliances"
+  },
+  {
+    "code": "7290",
+    "description": "Miscellaneous Household and Commercial Furnishings and Appliances",
+    "group": "72",
+    "group_name": "Household and Commercial Furnishings and Appliances"
+  },
+  {
+    "code": "7310",
+    "description": "Food Cooking, Baking, and Serving Equipment",
+    "group": "73",
+    "group_name": "Food Preparation and Serving Equipment"
+  },
+  {
+    "code": "7320",
+    "description": "Kitchen Equipment and Appliances",
+    "group": "73",
+    "group_name": "Food Preparation and Serving Equipment"
+  },
+  {
+    "code": "7330",
+    "description": "Kitchen Hand Tools and Utensils",
+    "group": "73",
+    "group_name": "Food Preparation and Serving Equipment"
+  },
+  {
+    "code": "7340",
+    "description": "Cutlery and Flatware",
+    "group": "73",
+    "group_name": "Food Preparation and Serving Equipment"
+  },
+  {
+    "code": "7350",
+    "description": "Tableware",
+    "group": "73",
+    "group_name": "Food Preparation and Serving Equipment"
+  },
+  {
+    "code": "7360",
+    "description": "Sets, Kits, Outfits and Modules, Food Preparation and Serving",
+    "group": "73",
+    "group_name": "Food Preparation and Serving Equipment"
+  },
+  {
+    "code": "7420",
+    "description": "Accounting and Calculating Machines",
+    "group": "74",
+    "group_name": "Office Machines and Data Processing Equipment"
+  },
+  {
+    "code": "7430",
+    "description": "Typewriters and Office Type Composing Machines",
+    "group": "74",
+    "group_name": "Office Machines and Data Processing Equipment"
+  },
+  {
+    "code": "7435",
+    "description": "Office Information System Equipment",
+    "group": "74",
+    "group_name": "Office Machines and Data Processing Equipment"
+  },
+  {
+    "code": "7450",
+    "description": "Office Type Sound Recording and Reproducing Machines",
+    "group": "74",
+    "group_name": "Office Machines and Data Processing Equipment"
+  },
+  {
+    "code": "7460",
+    "description": "Visible Record Equipment",
+    "group": "74",
+    "group_name": "Office Machines and Data Processing Equipment"
+  },
+  {
+    "code": "7490",
+    "description": "Miscellaneous Office Machines",
+    "group": "74",
+    "group_name": "Office Machines and Data Processing Equipment"
+  },
+  {
+    "code": "7510",
+    "description": "Office Supplies",
+    "group": "75",
+    "group_name": "Office Supplies and Devices"
+  },
+  {
+    "code": "7520",
+    "description": "Office Devices and Accessories",
+    "group": "75",
+    "group_name": "Office Supplies and Devices"
+  },
+  {
+    "code": "7530",
+    "description": "Stationery and Record Forms",
+    "group": "75",
+    "group_name": "Office Supplies and Devices"
+  },
+  {
+    "code": "7540",
+    "description": "Standard Forms",
+    "group": "75",
+    "group_name": "Office Supplies and Devices"
+  },
+  {
+    "code": "7610",
+    "description": "Books and Pamphlets",
+    "group": "76",
+    "group_name": "Books, Maps, and Other Publications"
+  },
+  {
+    "code": "7630",
+    "description": "Newspapers and Periodicals",
+    "group": "76",
+    "group_name": "Books, Maps, and Other Publications"
+  },
+  {
+    "code": "7640",
+    "description": "Maps, Atlases, Charts, and Globes",
+    "group": "76",
+    "group_name": "Books, Maps, and Other Publications"
+  },
+  {
+    "code": "7641",
+    "description": "Aeronautical Maps, Charts and Geodetic Products",
+    "group": "76",
+    "group_name": "Books, Maps, and Other Publications"
+  },
+  {
+    "code": "7642",
+    "description": "Hydrographic Maps, Charts and Geodetic Products",
+    "group": "76",
+    "group_name": "Books, Maps, and Other Publications"
+  },
+  {
+    "code": "7643",
+    "description": "Topographic Maps, Charts and Geodetic Products",
+    "group": "76",
+    "group_name": "Books, Maps, and Other Publications"
+  },
+  {
+    "code": "7644",
+    "description": "Digital Maps, Charts and Geodetic Products",
+    "group": "76",
+    "group_name": "Books, Maps, and Other Publications"
+  },
+  {
+    "code": "7650",
+    "description": "Drawings and Specifications",
+    "group": "76",
+    "group_name": "Books, Maps, and Other Publications"
+  },
+  {
+    "code": "7660",
+    "description": "Sheet and Book Music",
+    "group": "76",
+    "group_name": "Books, Maps, and Other Publications"
+  },
+  {
+    "code": "7670",
+    "description": "Microfilm, Processed",
+    "group": "76",
+    "group_name": "Books, Maps, and Other Publications"
+  },
+  {
+    "code": "7690",
+    "description": "Miscellaneous Printed Matter",
+    "group": "76",
+    "group_name": "Books, Maps, and Other Publications"
+  },
+  {
+    "code": "7710",
+    "description": "Musical Instruments",
+    "group": "77",
+    "group_name": "Musical Instruments, Phonographs, and Home-Type Radios"
+  },
+  {
+    "code": "7720",
+    "description": "Musical Instrument Parts and Accessories",
+    "group": "77",
+    "group_name": "Musical Instruments, Phonographs, and Home-Type Radios"
+  },
+  {
+    "code": "7730",
+    "description": "Phonographs, Radios, and Television Sets: Home Type",
+    "group": "77",
+    "group_name": "Musical Instruments, Phonographs, and Home-Type Radios"
+  },
+  {
+    "code": "7735",
+    "description": "Parts and Accessories of Phonographs, Radios, and Television Set: Home Type",
+    "group": "77",
+    "group_name": "Musical Instruments, Phonographs, and Home-Type Radios"
+  },
+  {
+    "code": "7740",
+    "description": "Phonograph Records",
+    "group": "77",
+    "group_name": "Musical Instruments, Phonographs, and Home-Type Radios"
+  },
+  {
+    "code": "7810",
+    "description": "Athletic and Sporting Equipment",
+    "group": "78",
+    "group_name": "Recreational and Athletic Equipment"
+  },
+  {
+    "code": "7820",
+    "description": "Games, Toys, and Wheeled Goods",
+    "group": "78",
+    "group_name": "Recreational and Athletic Equipment"
+  },
+  {
+    "code": "7830",
+    "description": "Recreational and Gymnastic Equipment",
+    "group": "78",
+    "group_name": "Recreational and Athletic Equipment"
+  },
+  {
+    "code": "7910",
+    "description": "Floor Polishers and Vacuum Cleaning Equipment",
+    "group": "79",
+    "group_name": "Cleaning Equipment and Supplies"
+  },
+  {
+    "code": "7920",
+    "description": "Brooms, Brushes, Mops, and Sponges",
+    "group": "79",
+    "group_name": "Cleaning Equipment and Supplies"
+  },
+  {
+    "code": "7930",
+    "description": "Cleaning and Polishing Compounds and Preparations",
+    "group": "79",
+    "group_name": "Cleaning Equipment and Supplies"
+  },
+  {
+    "code": "8010",
+    "description": "Paint",
+    "group": "80",
+    "group_name": "Brushes, Paints, Sealers, and Adhesives"
+  },
+  {
+    "code": "8020",
+    "description": "Paint and Artists' Brushes",
+    "group": "80",
+    "group_name": "Brushes, Paints, Sealers, and Adhesives"
+  },
+  {
+    "code": "8030",
+    "description": "Preservative and Sealing Compounds",
+    "group": "80",
+    "group_name": "Brushes, Paints, Sealers, and Adhesives"
+  },
+  {
+    "code": "8040",
+    "description": "Adhesives",
+    "group": "80",
+    "group_name": "Brushes, Paints, Sealers, and Adhesives"
+  },
+  {
+    "code": "8105",
+    "description": "Bags and Sacks",
+    "group": "81",
+    "group_name": "Containers, Packaging, and Packing Supplies"
+  },
+  {
+    "code": "8110",
+    "description": "Drums and Cans",
+    "group": "81",
+    "group_name": "Containers, Packaging, and Packing Supplies"
+  },
+  {
+    "code": "8115",
+    "description": "Boxes, Cartons, and Crates",
+    "group": "81",
+    "group_name": "Containers, Packaging, and Packing Supplies"
+  },
+  {
+    "code": "8120",
+    "description": "Commercial and Industrial Gas Cylinders",
+    "group": "81",
+    "group_name": "Containers, Packaging, and Packing Supplies"
+  },
+  {
+    "code": "8125",
+    "description": "Bottles and Jars",
+    "group": "81",
+    "group_name": "Containers, Packaging, and Packing Supplies"
+  },
+  {
+    "code": "8130",
+    "description": "Reels and Spools",
+    "group": "81",
+    "group_name": "Containers, Packaging, and Packing Supplies"
+  },
+  {
+    "code": "8135",
+    "description": "Packaging and Packing Bulk Materials",
+    "group": "81",
+    "group_name": "Containers, Packaging, and Packing Supplies"
+  },
+  {
+    "code": "8140",
+    "description": "Ammunition and Nuclear Ordnance Boxes, Packages and Special Containers",
+    "group": "81",
+    "group_name": "Containers, Packaging, and Packing Supplies"
+  },
+  {
+    "code": "8145",
+    "description": "Specialized Shipping and Storage Containers",
+    "group": "81",
+    "group_name": "Containers, Packaging, and Packing Supplies"
+  },
+  {
+    "code": "8150",
+    "description": "Freight Containers",
+    "group": "81",
+    "group_name": "Containers, Packaging, and Packing Supplies"
+  },
+  {
+    "code": "8305",
+    "description": "Textile Fabrics",
+    "group": "83",
+    "group_name": "Textiles, Leather, Furs, Apparel and Shoe Findings, Tents and Flags"
+  },
+  {
+    "code": "8310",
+    "description": "Yarn and Thread",
+    "group": "83",
+    "group_name": "Textiles, Leather, Furs, Apparel and Shoe Findings, Tents and Flags"
+  },
+  {
+    "code": "8315",
+    "description": "Notions and Apparel Findings",
+    "group": "83",
+    "group_name": "Textiles, Leather, Furs, Apparel and Shoe Findings, Tents and Flags"
+  },
+  {
+    "code": "8320",
+    "description": "Padding and Stuffing Materials",
+    "group": "83",
+    "group_name": "Textiles, Leather, Furs, Apparel and Shoe Findings, Tents and Flags"
+  },
+  {
+    "code": "8325",
+    "description": "Fur Materials",
+    "group": "83",
+    "group_name": "Textiles, Leather, Furs, Apparel and Shoe Findings, Tents and Flags"
+  },
+  {
+    "code": "8330",
+    "description": "Leather Materials",
+    "group": "83",
+    "group_name": "Textiles, Leather, Furs, Apparel and Shoe Findings, Tents and Flags"
+  },
+  {
+    "code": "8335",
+    "description": "Shoe Findings and Soling Materials",
+    "group": "83",
+    "group_name": "Textiles, Leather, Furs, Apparel and Shoe Findings, Tents and Flags"
+  },
+  {
+    "code": "8340",
+    "description": "Tents and Tarpaulins",
+    "group": "83",
+    "group_name": "Textiles, Leather, Furs, Apparel and Shoe Findings, Tents and Flags"
+  },
+  {
+    "code": "8345",
+    "description": "Flags and Pennants",
+    "group": "83",
+    "group_name": "Textiles, Leather, Furs, Apparel and Shoe Findings, Tents and Flags"
+  },
+  {
+    "code": "8405",
+    "description": "Outerwear, Men's",
+    "group": "84",
+    "group_name": "Clothing, Individual Equipment, and Insignia"
+  },
+  {
+    "code": "8410",
+    "description": "Outerwear, Women's",
+    "group": "84",
+    "group_name": "Clothing, Individual Equipment, and Insignia"
+  },
+  {
+    "code": "8415",
+    "description": "Clothing, Special Purpose",
+    "group": "84",
+    "group_name": "Clothing, Individual Equipment, and Insignia"
+  },
+  {
+    "code": "8420",
+    "description": "Underwear and Nightwear, Men's",
+    "group": "84",
+    "group_name": "Clothing, Individual Equipment, and Insignia"
+  },
+  {
+    "code": "8425",
+    "description": "Underwear and Nightwear, Women's",
+    "group": "84",
+    "group_name": "Clothing, Individual Equipment, and Insignia"
+  },
+  {
+    "code": "8430",
+    "description": "Footwear, Men's",
+    "group": "84",
+    "group_name": "Clothing, Individual Equipment, and Insignia"
+  },
+  {
+    "code": "8435",
+    "description": "Footwear, Women's",
+    "group": "84",
+    "group_name": "Clothing, Individual Equipment, and Insignia"
+  },
+  {
+    "code": "8440",
+    "description": "Hosiery, Handwear, and Clothing Accessories, Men's",
+    "group": "84",
+    "group_name": "Clothing, Individual Equipment, and Insignia"
+  },
+  {
+    "code": "8445",
+    "description": "Hosiery, Handwear, and Clothing Accessories, Women's",
+    "group": "84",
+    "group_name": "Clothing, Individual Equipment, and Insignia"
+  },
+  {
+    "code": "8450",
+    "description": "Children's and Infants' Apparel and Accessories",
+    "group": "84",
+    "group_name": "Clothing, Individual Equipment, and Insignia"
+  },
+  {
+    "code": "8455",
+    "description": "Badges and Insignia",
+    "group": "84",
+    "group_name": "Clothing, Individual Equipment, and Insignia"
+  },
+  {
+    "code": "8460",
+    "description": "Luggage",
+    "group": "84",
+    "group_name": "Clothing, Individual Equipment, and Insignia"
+  },
+  {
+    "code": "8465",
+    "description": "Individual Equipment",
+    "group": "84",
+    "group_name": "Clothing, Individual Equipment, and Insignia"
+  },
+  {
+    "code": "8470",
+    "description": "Armor, Personal",
+    "group": "84",
+    "group_name": "Clothing, Individual Equipment, and Insignia"
+  },
+  {
+    "code": "8475",
+    "description": "Specialized Flight Clothing and Accessories",
+    "group": "84",
+    "group_name": "Clothing, Individual Equipment, and Insignia"
+  },
+  {
+    "code": "8510",
+    "description": "Perfumes, Toilet Preparations, and Powders",
+    "group": "85",
+    "group_name": "Toiletries"
+  },
+  {
+    "code": "8520",
+    "description": "Toilet Soap, Shaving Preparations, and Dentifrices",
+    "group": "85",
+    "group_name": "Toiletries"
+  },
+  {
+    "code": "8530",
+    "description": "Personal Toiletry Articles",
+    "group": "85",
+    "group_name": "Toiletries"
+  },
+  {
+    "code": "8540",
+    "description": "Toiletry Paper Products",
+    "group": "85",
+    "group_name": "Toiletries"
+  },
+  {
+    "code": "8710",
+    "description": "Forage and Feed",
+    "group": "87",
+    "group_name": "Agricultural Supplies"
+  },
+  {
+    "code": "8720",
+    "description": "Fertilizers",
+    "group": "87",
+    "group_name": "Agricultural Supplies"
+  },
+  {
+    "code": "8730",
+    "description": "Seeds and Nursery Stock",
+    "group": "87",
+    "group_name": "Agricultural Supplies"
+  },
+  {
+    "code": "8810",
+    "description": "Live Animals, Raised for Food",
+    "group": "88",
+    "group_name": "Live Animals"
+  },
+  {
+    "code": "8820",
+    "description": "Live Animals, Not Raised for Food",
+    "group": "88",
+    "group_name": "Live Animals"
+  },
+  {
+    "code": "8905",
+    "description": "Meat, Poultry, and Fish",
+    "group": "89",
+    "group_name": "Subsistence (Food)"
+  },
+  {
+    "code": "8910",
+    "description": "Dairy Foods and Eggs",
+    "group": "89",
+    "group_name": "Subsistence (Food)"
+  },
+  {
+    "code": "8915",
+    "description": "Fruits and Vegetables",
+    "group": "89",
+    "group_name": "Subsistence (Food)"
+  },
+  {
+    "code": "8920",
+    "description": "Bakery and Cereal Products",
+    "group": "89",
+    "group_name": "Subsistence (Food)"
+  },
+  {
+    "code": "8925",
+    "description": "Sugar, Confectionery, and Nuts",
+    "group": "89",
+    "group_name": "Subsistence (Food)"
+  },
+  {
+    "code": "8930",
+    "description": "Jams, Jellies, and Preserves",
+    "group": "89",
+    "group_name": "Subsistence (Food)"
+  },
+  {
+    "code": "8935",
+    "description": "Soups and Bouillons",
+    "group": "89",
+    "group_name": "Subsistence (Food)"
+  },
+  {
+    "code": "8940",
+    "description": "Special Dietary Foods and Food Specialty Preparations",
+    "group": "89",
+    "group_name": "Subsistence (Food)"
+  },
+  {
+    "code": "8945",
+    "description": "Food, Oils and Fats",
+    "group": "89",
+    "group_name": "Subsistence (Food)"
+  },
+  {
+    "code": "8950",
+    "description": "Condiments and Related Products",
+    "group": "89",
+    "group_name": "Subsistence (Food)"
+  },
+  {
+    "code": "8955",
+    "description": "Coffee, Tea, and Cocoa",
+    "group": "89",
+    "group_name": "Subsistence (Food)"
+  },
+  {
+    "code": "8960",
+    "description": "Beverages, Nonalcoholic",
+    "group": "89",
+    "group_name": "Subsistence (Food)"
+  },
+  {
+    "code": "8965",
+    "description": "Beverages, Alcoholic",
+    "group": "89",
+    "group_name": "Subsistence (Food)"
+  },
+  {
+    "code": "8970",
+    "description": "Composite Food Packages",
+    "group": "89",
+    "group_name": "Subsistence (Food)"
+  },
+  {
+    "code": "8975",
+    "description": "Tobacco Products",
+    "group": "89",
+    "group_name": "Subsistence (Food)"
+  },
+  {
+    "code": "9110",
+    "description": "Fuels, Solid",
+    "group": "91",
+    "group_name": "Fuels, Lubricants, Oils, and Waxes"
+  },
+  {
+    "code": "9130",
+    "description": "Liquid Propellants and Fuels, Petroleum Base",
+    "group": "91",
+    "group_name": "Fuels, Lubricants, Oils, and Waxes"
+  },
+  {
+    "code": "9135",
+    "description": "Liquid Propellant Fuels and Oxidizers, Chemical Base",
+    "group": "91",
+    "group_name": "Fuels, Lubricants, Oils, and Waxes"
+  },
+  {
+    "code": "9140",
+    "description": "Fuel Oils",
+    "group": "91",
+    "group_name": "Fuels, Lubricants, Oils, and Waxes"
+  },
+  {
+    "code": "9150",
+    "description": "Oils and Greases: Cutting, Lubricating, and Hydraulic",
+    "group": "91",
+    "group_name": "Fuels, Lubricants, Oils, and Waxes"
+  },
+  {
+    "code": "9160",
+    "description": "Miscellaneous Waxes, Oils, and Fats",
+    "group": "91",
+    "group_name": "Fuels, Lubricants, Oils, and Waxes"
+  },
+  {
+    "code": "9310",
+    "description": "Paper and Paperboard",
+    "group": "93",
+    "group_name": "Nonmetallic Fabricated Materials"
+  },
+  {
+    "code": "9320",
+    "description": "Rubber Fabricated Materials",
+    "group": "93",
+    "group_name": "Nonmetallic Fabricated Materials"
+  },
+  {
+    "code": "9330",
+    "description": "Plastics Fabricated Materials",
+    "group": "93",
+    "group_name": "Nonmetallic Fabricated Materials"
+  },
+  {
+    "code": "9340",
+    "description": "Glass Fabricated Materials",
+    "group": "93",
+    "group_name": "Nonmetallic Fabricated Materials"
+  },
+  {
+    "code": "9350",
+    "description": "Refractories and Fire Surfacing Materials",
+    "group": "93",
+    "group_name": "Nonmetallic Fabricated Materials"
+  },
+  {
+    "code": "9390",
+    "description": "Miscellaneous Fabricated Nonmetallic Materials",
+    "group": "93",
+    "group_name": "Nonmetallic Fabricated Materials"
+  },
+  {
+    "code": "9410",
+    "description": "Crude Grades of Plant Materials",
+    "group": "94",
+    "group_name": "Nonmetallic Crude Materials"
+  },
+  {
+    "code": "9420",
+    "description": "Fibers: Vegetable, Animal, and Synthetic",
+    "group": "94",
+    "group_name": "Nonmetallic Crude Materials"
+  },
+  {
+    "code": "9430",
+    "description": "Miscellaneous Crude Animal Products, Inedible",
+    "group": "94",
+    "group_name": "Nonmetallic Crude Materials"
+  },
+  {
+    "code": "9440",
+    "description": "Miscellaneous Crude Agricultural and Forestry Products",
+    "group": "94",
+    "group_name": "Nonmetallic Crude Materials"
+  },
+  {
+    "code": "9450",
+    "description": "Nonmetallic Scrap, Except Textile",
+    "group": "94",
+    "group_name": "Nonmetallic Crude Materials"
+  },
+  {
+    "code": "9505",
+    "description": "Nonelectrical Wires",
+    "group": "95",
+    "group_name": "Metal Bars, Sheets, and Shapes"
+  },
+  {
+    "code": "9510",
+    "description": "Bars and Rods",
+    "group": "95",
+    "group_name": "Metal Bars, Sheets, and Shapes"
+  },
+  {
+    "code": "9515",
+    "description": "Plate, Sheet, Strip, Foil, and Leaf",
+    "group": "95",
+    "group_name": "Metal Bars, Sheets, and Shapes"
+  },
+  {
+    "code": "9520",
+    "description": "Structural Shapes",
+    "group": "95",
+    "group_name": "Metal Bars, Sheets, and Shapes"
+  },
+  {
+    "code": "9525",
+    "description": "Wire, Nonelectrical, Nonferrous Base Metal",
+    "group": "95",
+    "group_name": "Metal Bars, Sheets, and Shapes"
+  },
+  {
+    "code": "9530",
+    "description": "Bars and Rods, Nonferrous Base Metal",
+    "group": "95",
+    "group_name": "Metal Bars, Sheets, and Shapes"
+  },
+  {
+    "code": "9535",
+    "description": "Plate, Sheet, Strip, and Foil; Nonferrous Base Metal",
+    "group": "95",
+    "group_name": "Metal Bars, Sheets, and Shapes"
+  },
+  {
+    "code": "9540",
+    "description": "Structural Shapes, Nonferrous Base Metal",
+    "group": "95",
+    "group_name": "Metal Bars, Sheets, and Shapes"
+  },
+  {
+    "code": "9545",
+    "description": "Plate, Sheet, Strip, Foil, and Wire: Precious Metal",
+    "group": "95",
+    "group_name": "Metal Bars, Sheets, and Shapes"
+  },
+  {
+    "code": "9610",
+    "description": "Ores",
+    "group": "96",
+    "group_name": "Ores, Minerals, and Their Primary Products"
+  },
+  {
+    "code": "9620",
+    "description": "Minerals, Natural and Synthetic",
+    "group": "96",
+    "group_name": "Ores, Minerals, and Their Primary Products"
+  },
+  {
+    "code": "9630",
+    "description": "Additive Metal Materials",
+    "group": "96",
+    "group_name": "Ores, Minerals, and Their Primary Products"
+  },
+  {
+    "code": "9640",
+    "description": "Iron and Steel Primary and Semi-finished Products",
+    "group": "96",
+    "group_name": "Ores, Minerals, and Their Primary Products"
+  },
+  {
+    "code": "9650",
+    "description": "Nonferrous Base Metal Refinery and Intermediate Forms",
+    "group": "96",
+    "group_name": "Ores, Minerals, and Their Primary Products"
+  },
+  {
+    "code": "9660",
+    "description": "Precious Metals Primary Forms",
+    "group": "96",
+    "group_name": "Ores, Minerals, and Their Primary Products"
+  },
+  {
+    "code": "9670",
+    "description": "Iron and Steel Scrap",
+    "group": "96",
+    "group_name": "Ores, Minerals, and Their Primary Products"
+  },
+  {
+    "code": "9680",
+    "description": "Nonferrous Scrap",
+    "group": "96",
+    "group_name": "Ores, Minerals, and Their Primary Products"
+  },
+  {
+    "code": "9905",
+    "description": "Signs, Advertising Displays, and Identification Plates",
+    "group": "99",
+    "group_name": "Miscellaneous"
+  },
+  {
+    "code": "9910",
+    "description": "Jewelry",
+    "group": "99",
+    "group_name": "Miscellaneous"
+  },
+  {
+    "code": "9915",
+    "description": "Collectors' and/or Historical Items",
+    "group": "99",
+    "group_name": "Miscellaneous"
+  },
+  {
+    "code": "9920",
+    "description": "Smokers' Articles and Matches",
+    "group": "99",
+    "group_name": "Miscellaneous"
+  },
+  {
+    "code": "9925",
+    "description": "Ecclesiastical Equipment, Furnishings, and Supplies",
+    "group": "99",
+    "group_name": "Miscellaneous"
+  },
+  {
+    "code": "9930",
+    "description": "Memorials; Cemetery and Mortuary Equipment and Supplies",
+    "group": "99",
+    "group_name": "Miscellaneous"
+  },
+  {
+    "code": "9999",
+    "description": "Miscellaneous Items",
+    "group": "99",
+    "group_name": "Miscellaneous"
+  }
+]

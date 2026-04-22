@@ -1,0 +1,531 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =====================================================================
+   FSC // SUPPLY CORPS — military manufacturing prototype theme
+   --------------------------------------------------------------------- */
+
+:root {
+  /* Warm canvas / crate tones */
+  --canvas: #e6d9ae;
+  --canvas-2: #ded0a1;
+  --canvas-3: #cfbd7e;
+  --parchment: #f2e8c4;
+  --stencil-wash: #ebe1bc;
+
+  /* Metal + steel */
+  --steel: #1f1c17;
+  --steel-soft: #3a3630;
+  --steel-ink: #14120e;
+  --rivet: #7a7362;
+  --rivet-soft: #a6997a;
+
+  /* Olive drab family */
+  --od-deep: #2d3820;
+  --od: #3e4c28;
+  --od-2: #5a6d3c;
+  --od-3: #8a9a5f;
+
+  /* Safety / hazard */
+  --safety: #e85d1f;
+  --safety-deep: #b24011;
+  --hazard: #f0c41c;
+  --hazard-deep: #b58a0e;
+
+  /* Accents */
+  --blueprint: #1b3a5c;
+  --classified: #b2331c;
+
+  /* Legacy aliases — keep paper/ink/rule/stamp/field semantics so
+     downstream components keep working with their existing classes. */
+  --paper: var(--canvas);
+  --paper-2: var(--canvas-2);
+  --paper-3: var(--canvas-3);
+  --paper-deep: #b8a765;
+  --ink: var(--steel);
+  --ink-muted: var(--steel-soft);
+  --ink-soft: var(--rivet);
+  --rule: var(--rivet);
+  --rule-soft: var(--rivet-soft);
+  --stamp: var(--safety);
+  --stamp-soft: var(--safety-deep);
+  --field: var(--od);
+  --warn: var(--hazard-deep);
+  --accent: var(--blueprint);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  color: var(--steel);
+  background: var(--canvas);
+  font-feature-settings: "ss01", "kern";
+}
+
+/* --- Backgrounds / textures ------------------------------------------ */
+
+.paper-bg {
+  background-color: var(--canvas);
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(31, 28, 23, 0.09) 1px, transparent 1.5px),
+    repeating-linear-gradient(
+      135deg,
+      transparent 0 22px,
+      rgba(31, 28, 23, 0.025) 22px 23px
+    );
+  background-size: 18px 18px, auto;
+}
+
+.blueprint-bg {
+  background-color: #0f2640;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 22px 22px;
+  color: #d9e5f0;
+}
+
+/* Diagonal hazard caution stripes — the shipping-dock classic. */
+.hazard-stripe {
+  background-image: repeating-linear-gradient(
+    135deg,
+    var(--hazard) 0 18px,
+    var(--steel) 18px 36px
+  );
+}
+
+.hazard-stripe-soft {
+  background-image: repeating-linear-gradient(
+    135deg,
+    rgba(240, 196, 28, 0.9) 0 14px,
+    rgba(31, 28, 23, 0.92) 14px 28px
+  );
+}
+
+/* Treadplate / bolt stripe. */
+.tread {
+  background-image: repeating-linear-gradient(
+    90deg,
+    var(--steel) 0 6px,
+    transparent 6px 13px
+  );
+}
+
+/* Rivet strip — a row of little bolts. */
+.rivet-row {
+  background-image: radial-gradient(
+    circle,
+    var(--rivet) 1.7px,
+    rgba(122, 115, 98, 0.35) 2.3px,
+    transparent 2.8px
+  );
+  background-size: 14px 14px;
+  background-position: center;
+  height: 14px;
+}
+
+.rivet-row-dark {
+  background-image: radial-gradient(
+    circle,
+    var(--canvas-2) 1.7px,
+    rgba(230, 217, 174, 0.35) 2.3px,
+    transparent 2.8px
+  );
+  background-size: 14px 14px;
+  background-position: center;
+  height: 14px;
+}
+
+::selection {
+  background: var(--safety);
+  color: var(--parchment);
+}
+
+/* --- Rules + borders ------------------------------------------------- */
+
+.rule { border-top: 1.5px solid var(--rivet); }
+.rule-dashed { border-top: 1.5px dashed var(--rivet); }
+.rule-dotted { border-top: 1.5px dotted var(--rivet); }
+
+.ink-border {
+  border: 2px solid var(--steel);
+}
+
+/* --- Cards ----------------------------------------------------------- */
+
+.card-paper {
+  background: var(--parchment);
+  border: 2px solid var(--steel);
+  box-shadow: 5px 5px 0 var(--steel);
+  position: relative;
+}
+
+.card-paper-soft {
+  background: var(--canvas-2);
+  border: 1.5px solid var(--steel);
+  box-shadow: 3px 3px 0 var(--rivet);
+  position: relative;
+}
+
+.crate {
+  background: var(--canvas-3);
+  background-image:
+    repeating-linear-gradient(
+      90deg,
+      rgba(31, 28, 23, 0.08) 0 2px,
+      transparent 2px 6px
+    );
+  border: 2px solid var(--steel);
+  box-shadow:
+    inset 0 0 0 6px var(--canvas-3),
+    inset 0 0 0 7px rgba(31, 28, 23, 0.35),
+    5px 5px 0 var(--steel);
+  position: relative;
+}
+
+/* --- Typography helpers --------------------------------------------- */
+
+.overline {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--steel-soft);
+}
+
+/* Stencil is reserved for big display headlines (>= ~20px) where gaps
+   are decorative, not obstructive. For small text, use sans. */
+.stencil {
+  font-family: var(--font-stencil), var(--font-mono), monospace;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 0.88;
+  letter-spacing: -0.005em;
+}
+
+.serial {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 11px;
+  color: var(--steel-soft);
+  letter-spacing: 0.12em;
+}
+
+.spec {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--steel-soft);
+  text-transform: uppercase;
+}
+
+/* --- Stamps ---------------------------------------------------------- */
+
+.stamp {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 9px 4px;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 11.5px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  border: 2.5px solid currentColor;
+  color: var(--steel);
+  background: transparent;
+  transform: rotate(-2deg);
+  position: relative;
+}
+.stamp::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border: 1.5px dashed currentColor;
+  opacity: 0.4;
+  pointer-events: none;
+}
+.stamp-red { color: var(--classified); }
+.stamp-green { color: var(--od-2); }
+.stamp-amber { color: var(--safety); }
+.stamp-blue { color: var(--blueprint); }
+.stamp-steel { color: var(--steel); }
+
+/* Chunky bold manifest stamp — squared, no rotate */
+.stamp-block {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  border: 2.5px solid currentColor;
+  color: var(--steel);
+  background: transparent;
+  position: relative;
+}
+
+/* --- Caret / blink --------------------------------------------------- */
+
+@keyframes caret-blink {
+  0%, 50% { opacity: 1; }
+  50.01%, 100% { opacity: 0; }
+}
+.caret {
+  display: inline-block;
+  width: 8px;
+  height: 13px;
+  background: var(--safety);
+  animation: caret-blink 1.1s steps(1) infinite;
+  vertical-align: -1px;
+}
+
+/* --- Scrollbar ------------------------------------------------------- */
+
+.thin-scroll::-webkit-scrollbar { width: 10px; height: 10px; }
+.thin-scroll::-webkit-scrollbar-track { background: var(--canvas-2); }
+.thin-scroll::-webkit-scrollbar-thumb {
+  background: var(--steel);
+  border: 2px solid var(--canvas-2);
+}
+
+/* --- Motion ---------------------------------------------------------- */
+
+@keyframes ticker-in {
+  from { transform: translateX(-8px); opacity: 0; }
+  to   { transform: translateX(0); opacity: 1; }
+}
+.ticker-in {
+  animation: ticker-in 280ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+@keyframes cog-spin {
+  to { transform: rotate(360deg); }
+}
+.spin-cog {
+  animation: cog-spin 2.4s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes tread-scroll {
+  to { background-position-x: 26px; }
+}
+.tread-scroll {
+  animation: tread-scroll 1.1s linear infinite;
+}
+
+@keyframes hazard-slide {
+  to { background-position-x: 72px; }
+}
+.hazard-slide {
+  animation: hazard-slide 1.8s linear infinite;
+}
+
+@keyframes siren-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(232, 93, 31, 0.55); }
+  50%      { box-shadow: 0 0 0 8px rgba(232, 93, 31, 0); }
+}
+.siren-glow {
+  animation: siren-glow 1.6s ease-out infinite;
+}
+
+@keyframes stamp-drop {
+  0%   { transform: translateY(-14px) rotate(-8deg); opacity: 0; }
+  60%  { transform: translateY(2px) rotate(-1deg); opacity: 1; }
+  100% { transform: translateY(0) rotate(-2deg); opacity: 1; }
+}
+.stamp-drop {
+  animation: stamp-drop 420ms cubic-bezier(0.3, 1.4, 0.4, 1) both;
+}
+
+/* --- Buttons --------------------------------------------------------- */
+
+.btn-ink {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--parchment);
+  background: var(--steel);
+  padding: 12px 22px;
+  border: 2px solid var(--steel);
+  cursor: pointer;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+  box-shadow: 5px 5px 0 var(--safety);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 1;
+}
+.btn-ink:hover:not(:disabled) {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0 var(--safety);
+}
+.btn-ink:active:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--safety);
+}
+.btn-ink:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  box-shadow: 5px 5px 0 var(--rivet);
+}
+
+.btn-od {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--parchment);
+  background: var(--od);
+  padding: 12px 22px;
+  border: 2px solid var(--steel);
+  cursor: pointer;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+  box-shadow: 5px 5px 0 var(--hazard);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 1;
+}
+.btn-od:hover:not(:disabled) {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0 var(--hazard);
+}
+.btn-od:active:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--hazard);
+}
+
+.btn-ghost {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--steel);
+  background: transparent;
+  padding: 10px 16px;
+  border: 2px solid var(--steel);
+  cursor: pointer;
+  transition: background 120ms ease, color 120ms ease, transform 120ms ease;
+}
+.btn-ghost:hover:not(:disabled) {
+  background: var(--steel);
+  color: var(--parchment);
+  transform: translate(-1px, -1px);
+}
+
+.btn-link {
+  font-family: var(--font-mono), monospace;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--steel);
+  background: transparent;
+  border: none;
+  padding: 4px 0;
+  cursor: pointer;
+  border-bottom: 1.5px dotted var(--rivet);
+}
+.btn-link:hover:not(:disabled) {
+  color: var(--safety);
+  border-bottom-color: var(--safety);
+}
+
+/* --- Form fields ----------------------------------------------------- */
+
+.field-input {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 14px;
+  color: var(--steel);
+  background: #f8efc9;
+  border: 1.5px solid var(--steel);
+  padding: 10px 12px;
+  width: 100%;
+  outline: none;
+  box-shadow: inset 0 1px 0 rgba(31, 28, 23, 0.06);
+}
+.field-input::placeholder {
+  color: var(--rivet);
+  font-style: italic;
+}
+.field-input:focus {
+  background: #fffaea;
+  box-shadow: inset 0 -3px 0 var(--safety);
+}
+textarea.field-input {
+  resize: vertical;
+  min-height: 96px;
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+.field-label {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--steel-soft);
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.field-label .field-num {
+  color: var(--safety);
+  font-weight: 800;
+  font-size: 12px;
+  font-family: var(--font-mono), ui-monospace, monospace;
+}
+
+/* Dotted leader between a label and its value. */
+.leader-line {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.leader-line > .leader-dots {
+  flex: 1 1 auto;
+  border-bottom: 1.5px dotted var(--rivet);
+  transform: translateY(-3px);
+}
+
+/* --- Stars / chevrons ------------------------------------------------ */
+
+.chev-l::before {
+  content: "»";
+  margin-right: 6px;
+  color: var(--safety);
+  font-weight: 900;
+}
+
+.chev-r::after {
+  content: "«";
+  margin-left: 6px;
+  color: var(--safety);
+  font-weight: 900;
+}
+
+.star::after {
+  content: "★";
+  margin-left: 6px;
+  color: var(--hazard);
+}
+
+/* --- Link base ------------------------------------------------------- */
+
+a {
+  color: inherit;
+}

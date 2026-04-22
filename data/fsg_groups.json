@@ -1,0 +1,314 @@
+[
+  {
+    "group": "10",
+    "name": "Weapons"
+  },
+  {
+    "group": "11",
+    "name": "Nuclear Ordnance"
+  },
+  {
+    "group": "12",
+    "name": "Fire Control Equipment"
+  },
+  {
+    "group": "13",
+    "name": "Ammunition and Explosives"
+  },
+  {
+    "group": "14",
+    "name": "Guided Missiles"
+  },
+  {
+    "group": "15",
+    "name": "Aircraft and Airframe Structural Components"
+  },
+  {
+    "group": "16",
+    "name": "Aircraft Components and Accessories"
+  },
+  {
+    "group": "17",
+    "name": "Aircraft Launching, Landing, and Ground Handling Equipment"
+  },
+  {
+    "group": "18",
+    "name": "Space Vehicles"
+  },
+  {
+    "group": "19",
+    "name": "Ships, Small Craft, Pontoons, and Floating Docks"
+  },
+  {
+    "group": "20",
+    "name": "Ship and Marine Equipment"
+  },
+  {
+    "group": "22",
+    "name": "Railway Equipment"
+  },
+  {
+    "group": "23",
+    "name": "Ground Effect Vehicles, Motor Vehicles, Trailers, and Cycles"
+  },
+  {
+    "group": "24",
+    "name": "Tractors"
+  },
+  {
+    "group": "25",
+    "name": "Vehicular Equipment Components"
+  },
+  {
+    "group": "26",
+    "name": "Tires and Tubes"
+  },
+  {
+    "group": "28",
+    "name": "Engines, Turbines, and Components"
+  },
+  {
+    "group": "29",
+    "name": "Engine Accessories"
+  },
+  {
+    "group": "30",
+    "name": "Mechanical Power Transmission Equipment"
+  },
+  {
+    "group": "31",
+    "name": "Bearings"
+  },
+  {
+    "group": "32",
+    "name": "Woodworking Machinery and Equipment"
+  },
+  {
+    "group": "34",
+    "name": "Metalworking Machinery"
+  },
+  {
+    "group": "35",
+    "name": "Service and Trade Equipment"
+  },
+  {
+    "group": "36",
+    "name": "Special Industry Machinery"
+  },
+  {
+    "group": "37",
+    "name": "Agricultural Machinery and Equipment"
+  },
+  {
+    "group": "38",
+    "name": "Construction, Mining, Excavating, and Highway Maintenance Equipment"
+  },
+  {
+    "group": "39",
+    "name": "Materials Handling Equipment"
+  },
+  {
+    "group": "40",
+    "name": "Rope, Cable, Chain, and Fittings"
+  },
+  {
+    "group": "41",
+    "name": "Refrigeration, Air Conditioning, and Air Circulating Equipment"
+  },
+  {
+    "group": "42",
+    "name": "Fire Fighting, Rescue, and Safety Equipment"
+  },
+  {
+    "group": "43",
+    "name": "Pumps and Compressors"
+  },
+  {
+    "group": "44",
+    "name": "Furnace, Steam Plant, Drying Equipment, and Nuclear Reactors"
+  },
+  {
+    "group": "45",
+    "name": "Plumbing, Heating, and Sanitation Equipment"
+  },
+  {
+    "group": "46",
+    "name": "Water Purification and Sewage Treatment Equipment"
+  },
+  {
+    "group": "47",
+    "name": "Pipe, Tubing, Hose, and Fittings"
+  },
+  {
+    "group": "48",
+    "name": "Valves"
+  },
+  {
+    "group": "49",
+    "name": "Maintenance and Repair Shop Equipment"
+  },
+  {
+    "group": "51",
+    "name": "Hand Tools"
+  },
+  {
+    "group": "52",
+    "name": "Measuring Tools"
+  },
+  {
+    "group": "53",
+    "name": "Hardware and Abrasives"
+  },
+  {
+    "group": "54",
+    "name": "Prefabricated Structures and Scaffolding"
+  },
+  {
+    "group": "55",
+    "name": "Lumber, Millwork, Plywood, and Veneer"
+  },
+  {
+    "group": "56",
+    "name": "Construction and Building Materials"
+  },
+  {
+    "group": "58",
+    "name": "Communication, Detection, and Coherent Radiation Equipment"
+  },
+  {
+    "group": "59",
+    "name": "Electrical and Electronic Equipment Components"
+  },
+  {
+    "group": "60",
+    "name": "Fiber Optics Materials, Components, Assemblies, and Accessories"
+  },
+  {
+    "group": "61",
+    "name": "Electric Wire and Power and Distribution Equipment"
+  },
+  {
+    "group": "62",
+    "name": "Lighting Fixtures and Lamps"
+  },
+  {
+    "group": "63",
+    "name": "Alarm, Signal, and Security Detection Systems"
+  },
+  {
+    "group": "65",
+    "name": "Medical, Dental, and Veterinary Equipment and Supplies"
+  },
+  {
+    "group": "66",
+    "name": "Instruments and Laboratory Equipment"
+  },
+  {
+    "group": "67",
+    "name": "Photographic Equipment"
+  },
+  {
+    "group": "68",
+    "name": "Chemicals and Chemical Products"
+  },
+  {
+    "group": "69",
+    "name": "Training Aids and Devices"
+  },
+  {
+    "group": "70",
+    "name": "ADP Equipment, Software, Supplies, and Support Equipment"
+  },
+  {
+    "group": "71",
+    "name": "Furniture"
+  },
+  {
+    "group": "72",
+    "name": "Household and Commercial Furnishings and Appliances"
+  },
+  {
+    "group": "73",
+    "name": "Food Preparation and Serving Equipment"
+  },
+  {
+    "group": "74",
+    "name": "Office Machines and Data Processing Equipment"
+  },
+  {
+    "group": "75",
+    "name": "Office Supplies and Devices"
+  },
+  {
+    "group": "76",
+    "name": "Books, Maps, and Other Publications"
+  },
+  {
+    "group": "77",
+    "name": "Musical Instruments, Phonographs, and Home-Type Radios"
+  },
+  {
+    "group": "78",
+    "name": "Recreational and Athletic Equipment"
+  },
+  {
+    "group": "79",
+    "name": "Cleaning Equipment and Supplies"
+  },
+  {
+    "group": "80",
+    "name": "Brushes, Paints, Sealers, and Adhesives"
+  },
+  {
+    "group": "81",
+    "name": "Containers, Packaging, and Packing Supplies"
+  },
+  {
+    "group": "83",
+    "name": "Textiles, Leather, Furs, Apparel and Shoe Findings, Tents and Flags"
+  },
+  {
+    "group": "84",
+    "name": "Clothing, Individual Equipment, and Insignia"
+  },
+  {
+    "group": "85",
+    "name": "Toiletries"
+  },
+  {
+    "group": "87",
+    "name": "Agricultural Supplies"
+  },
+  {
+    "group": "88",
+    "name": "Live Animals"
+  },
+  {
+    "group": "89",
+    "name": "Subsistence (Food)"
+  },
+  {
+    "group": "91",
+    "name": "Fuels, Lubricants, Oils, and Waxes"
+  },
+  {
+    "group": "93",
+    "name": "Nonmetallic Fabricated Materials"
+  },
+  {
+    "group": "94",
+    "name": "Nonmetallic Crude Materials"
+  },
+  {
+    "group": "95",
+    "name": "Metal Bars, Sheets, and Shapes"
+  },
+  {
+    "group": "96",
+    "name": "Ores, Minerals, and Their Primary Products"
+  },
+  {
+    "group": "99",
+    "name": "Miscellaneous"
+  }
+]

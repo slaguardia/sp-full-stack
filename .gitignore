@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+.env*.local
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+
+fsc.db
+fsc.db-shm
+fsc.db-wal
+SalesPatriot_interview_task_fsc/
