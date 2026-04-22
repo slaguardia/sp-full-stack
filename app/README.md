@@ -5,7 +5,7 @@ Next.js App Router pages + API routes.
 ```
 app/
 ├── layout.tsx                    ← root layout, <Nav/>
-├── providers.tsx                 ← HeroUIProvider + router integration
+├── providers.tsx                 ← next-auth SessionProvider wrapper
 ├── page.tsx                      ← /            — input form + live pipeline view
 ├── method/page.tsx               ← /method      — per-stage deep dive (prompts, i/o, safety nets)
 ├── results/[id]/page.tsx         ← /results/42  — saved run: profile, hints, codes, timings

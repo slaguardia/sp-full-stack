@@ -82,7 +82,7 @@ A single LLM call against all 661 FSC codes works, but it wastes tokens and dilu
 ## Tech Stack
 
 - **Next.js 15** (TypeScript, App Router, React 19) — frontend + API routes in one project
-- **HeroUI** + **Tailwind CSS** — component library and styling
+- **Tailwind CSS** — styling, with `next/font` loading Big Shoulders Stencil + Archivo + DM Mono
 - **SQLite** (better-sqlite3) — FSC reference data + run history
 - **OpenRouter** — LLM access (Haiku for extraction, Sonnet for narrow/match)
 - **Cheerio** — HTML scraping
@@ -183,7 +183,7 @@ sp-full-stack/
 │   └── pipeline-smoke.ts           ← End-to-end pipeline smoke test
 ├── app/
 │   ├── layout.tsx                  ← root layout + Nav
-│   ├── providers.tsx               ← HeroUIProvider + router integration
+│   ├── providers.tsx               ← next-auth SessionProvider wrapper
 │   ├── page.tsx                    ← / — input form + live pipeline view
 │   ├── method/page.tsx             ← /method — per-stage deep dive
 │   ├── results/[id]/page.tsx       ← saved run: profile + hints + codes

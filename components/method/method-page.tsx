@@ -269,8 +269,7 @@ const TECH_STACK: Array<{
     label: "UI",
     items: [
       { name: "Tailwind CSS", note: "paper-and-ink design tokens" },
-      { name: "HeroUI", note: "primitives where useful" },
-      { name: "Fraunces + IBM Plex", note: "display serif + mono" },
+      { name: "Big Shoulders Stencil + Archivo + DM Mono", note: "display + sans + mono, via next/font" },
     ],
   },
   {

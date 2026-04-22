@@ -37,5 +37,4 @@ components/
 Both the home CTA (`pipeline-cta.tsx`) and per-stage deep dives on `/method`
 (`method/stage-portal.tsx`) use a hand-rolled portal: `createPortal` to
 `document.body`, Esc key + backdrop click to close, body scroll lock while
-open. No HeroUI Modal — matches the bureau aesthetic and has no external
-runtime dependency.
+open. Matches the bureau aesthetic with no external modal dependency.
