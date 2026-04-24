@@ -165,6 +165,49 @@ export async function matchCodes(
     .map((c) => `${c.code} [${c.groupCode} ${c.groupName}] — ${c.description}`)
     .join("\n");
 
+  const matchTool = {
+    type: "function" as const,
+    function: {
+      name: "record_matches",
+      description:
+        "Record the final FSC code matches for this company, with confidence and a short evidence-based reasoning for each.",
+      parameters: {
+        type: "object",
+        properties: {
+          matches: {
+            type: "array",
+            minItems: 1,
+            maxItems: 10,
+            items: {
+              type: "object",
+              properties: {
+                code: {
+                  type: "string",
+                  enum: candidates.map((c) => c.code),
+                  description: "An FSC code chosen from the candidate list.",
+                },
+                confidence: {
+                  type: "string",
+                  enum: ["high", "medium", "low"],
+                  description: "How confident this code applies to the company.",
+                },
+                reasoning: {
+                  type: "string",
+                  description:
+                    "One sentence citing specific evidence from the profile.",
+                },
+              },
+              required: ["code", "confidence", "reasoning"],
+              additionalProperties: false,
+            },
+          },
+        },
+        required: ["matches"],
+        additionalProperties: false,
+      },
+    },
+  };
+
   const res = await fetch(OPENROUTER_URL, {
     method: "POST",
     signal,
@@ -178,17 +221,36 @@ export async function matchCodes(
         { role: "system", content: MATCH_SYSTEM },
         {
           role: "user",
-          content: `Company profile:\n${profileToString(profile)}\n\nCandidate FSC codes (${candidates.length}):\n${catalog}\n\nReturn JSON only.`,
+          content: `Company profile:\n${profileToString(profile)}\n\nCandidate FSC codes (${candidates.length}):\n${catalog}`,
         },
       ],
       temperature: 0.1,
-      response_format: { type: "json_object" },
+      tools: [matchTool],
+      tool_choice: { type: "function", function: { name: "record_matches" } },
     }),
   });
   if (!res.ok) throw new Error(`match failed: ${res.status} ${await res.text()}`);
   const json = await res.json();
-  const raw = json.choices?.[0]?.message?.content ?? "{}";
-  return hydrateMatches(raw, byCode);
+  const toolCall = json.choices?.[0]?.message?.tool_calls?.[0];
+  if (!toolCall?.function?.arguments) {
+    throw new Error("match: model did not call record_matches");
+  }
+
+  const args = JSON.parse(toolCall.function.arguments) as {
+    matches: Array<{ code: string; confidence: Confidence; reasoning: string }>;
+  };
+
+  return args.matches
+    .map((m) => {
+      const meta = byCode.get(m.code);
+      if (!meta) return null;
+      return {
+        ...meta,
+        confidence: m.confidence,
+        reasoning: m.reasoning,
+      } satisfies MatchedCode;
+    })
+    .filter((x): x is MatchedCode => x !== null);
 }
 
 // ---------------------------------------------------------------------------
@@ -232,43 +294,6 @@ function profileToString(p: CompanyProfile): string {
   if (p.sicCodes.length) lines.push(`SIC codes: ${p.sicCodes.join(", ")}`);
   if (p.keywords.length) lines.push(`Keywords: ${p.keywords.join(", ")}`);
   return lines.join("\n");
-}
-
-function hydrateMatches(
-  raw: string,
-  byCode: Map<string, FscCode>,
-): MatchedCode[] {
-  let parsed: unknown;
-  try {
-    parsed = JSON.parse(stripCodeFences(raw));
-  } catch {
-    return [];
-  }
-  const arr = Array.isArray(parsed)
-    ? parsed
-    : Array.isArray((parsed as { codes?: unknown }).codes)
-      ? ((parsed as { codes: unknown[] }).codes as unknown[])
-      : Array.isArray((parsed as { matches?: unknown }).matches)
-        ? ((parsed as { matches: unknown[] }).matches as unknown[])
-        : [];
-
-  return arr
-    .filter((x): x is Record<string, unknown> => !!x && typeof x === "object")
-    .map((x) => {
-      const code = String(x.code ?? "").trim();
-      const meta = byCode.get(code);
-      if (!meta) return null;
-      const confRaw = String(x.confidence ?? "medium").toLowerCase();
-      const confidence: Confidence = (
-        ["high", "medium", "low"].includes(confRaw) ? confRaw : "medium"
-      ) as Confidence;
-      return {
-        ...meta,
-        confidence,
-        reasoning: String(x.reasoning ?? ""),
-      } satisfies MatchedCode;
-    })
-    .filter((x): x is MatchedCode => x !== null);
 }
 
 function stubMatch(profile: CompanyProfile, candidates: FscCode[]): MatchedCode[] {

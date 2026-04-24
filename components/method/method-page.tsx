@@ -698,9 +698,7 @@ Candidate FSC codes (78):
 3408 [34 Metalworking Machinery] — Machining Centers and Way-Type Machines
 3411 [34 Metalworking Machinery] — Boring Machines
 5305 [53 Hardware and Abrasives] — Screws
-…
-
-Return JSON only.`}
+…`}
         </pre>
       </PortalSection>
 
@@ -725,7 +723,7 @@ Return JSON only.`}
               k: "FORMAT",
               v: (
                 <span className="font-mono text-[12px]">
-                  response_format: {`{ type: "json_object" }`}
+                  forced tool call: record_matches
                 </span>
               ),
             },
@@ -735,31 +733,41 @@ Return JSON only.`}
 
       <PortalRule />
 
-      <PortalSection title="Hydrate">
-        <code className="font-mono text-[12px]">hydrateMatches()</code> turns the
-        raw JSON into fully-typed{" "}
-        <code className="font-mono text-[12px]">MatchedCode[]</code>:
+      <PortalSection title="Tool Schema">
+        <p className="mb-2">
+          The model is forced to call{" "}
+          <code className="font-mono text-[12px]">record_matches</code>. The
+          tool's JSON Schema is built per-request from the candidate pool, so
+          the model's output is constrained at token-generation time — not
+          post-hoc validated:
+        </p>
         <ul className="mt-2 ml-4 list-disc space-y-1 text-[13px]">
           <li>
-            Each match must have a <span className="font-mono text-[12px]">code</span>{" "}
-            present in the candidate list — invalid codes are dropped
-            (hallucinated 4-digit strings never reach the UI).
+            <span className="font-mono text-[12px]">code</span> is an{" "}
+            <span className="font-mono text-[12px]">enum</span> of the exact
+            candidate codes for this request — the model cannot return a code
+            that isn't in the pool.
           </li>
           <li>
-            <span className="font-mono text-[12px]">confidence</span> is
-            clamped to <span className="font-mono text-[12px]">"high"</span>,{" "}
-            <span className="font-mono text-[12px]">"medium"</span>, or{" "}
-            <span className="font-mono text-[12px]">"low"</span>; anything else
-            defaults to{" "}
-            <span className="font-mono text-[12px]">"medium"</span>.
+            <span className="font-mono text-[12px]">confidence</span> is an{" "}
+            <span className="font-mono text-[12px]">enum</span> of{" "}
+            <span className="font-mono text-[12px]">"high"</span>,{" "}
+            <span className="font-mono text-[12px]">"medium"</span>,{" "}
+            <span className="font-mono text-[12px]">"low"</span> — guaranteed,
+            not defaulted.
           </li>
           <li>
-            <span className="font-mono text-[12px]">reasoning</span> is coerced
-            to a string (empty string if missing).
+            <span className="font-mono text-[12px]">reasoning</span> is a free
+            string — shape, not quality, is enforced.
           </li>
           <li>
-            Group code and group name are re-attached from the database, not
-            trusted from the model.
+            <span className="font-mono text-[12px]">matches</span> is bounded{" "}
+            <span className="font-mono text-[12px]">minItems: 1</span>,{" "}
+            <span className="font-mono text-[12px]">maxItems: 10</span>.
+          </li>
+          <li>
+            Group code and group name are re-attached from the database on the
+            way out, not trusted from the model.
           </li>
         </ul>
       </PortalSection>
