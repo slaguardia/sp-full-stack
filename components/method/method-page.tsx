@@ -744,9 +744,10 @@ Candidate FSC codes (78):
         <ul className="mt-2 ml-4 list-disc space-y-1 text-[13px]">
           <li>
             <span className="font-mono text-[12px]">code</span> is an{" "}
-            <span className="font-mono text-[12px]">enum</span> of the exact
-            candidate codes for this request — the model cannot return a code
-            that isn't in the pool.
+            <span className="font-mono text-[12px]">enum</span> of every valid
+            4-digit FSC code in the catalog — the model cannot hallucinate a
+            code that doesn't exist, but it can still choose one outside the
+            narrowed candidate pool when it's confident a better fit exists.
           </li>
           <li>
             <span className="font-mono text-[12px]">confidence</span> is an{" "}

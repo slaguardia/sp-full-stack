@@ -136,7 +136,19 @@ export async function matchCodes(
 ): Promise<MatchedCode[]> {
   const db = getDb();
 
-  // Build candidate pool: all codes in narrowed groups + top hinted codes
+  // Full FSC catalog — used for both enum constraint (validity guarantee)
+  // and hydration lookup. The narrowed pool is advisory steering, not a fence.
+  const allFscCodes = db
+    .prepare(
+      `SELECT c.code, c.description, c.group_code as groupCode, g.name as groupName
+       FROM fsc_codes c JOIN fsg_groups g ON g.group_code = c.group_code
+       ORDER BY c.code`,
+    )
+    .all() as FscCode[];
+  const allByCode = new Map(allFscCodes.map((c) => [c.code, c]));
+
+  // Candidate pool: all codes in narrowed groups + top hinted codes.
+  // Shown in the prompt as the "likely fits" to steer the model.
   const groupPlaceholders = candidateGroups.length
     ? candidateGroups.map(() => "?").join(",")
     : "''";
@@ -183,8 +195,9 @@ export async function matchCodes(
               properties: {
                 code: {
                   type: "string",
-                  enum: candidates.map((c) => c.code),
-                  description: "An FSC code chosen from the candidate list.",
+                  enum: allFscCodes.map((c) => c.code),
+                  description:
+                    "A valid 4-digit FSC code. Prefer codes from the candidate list shown in the user message, but you may choose any FSC code if a better match clearly exists outside the list.",
                 },
                 confidence: {
                   type: "string",
@@ -242,7 +255,7 @@ export async function matchCodes(
 
   return args.matches
     .map((m) => {
-      const meta = byCode.get(m.code);
+      const meta = allByCode.get(m.code);
       if (!meta) return null;
       return {
         ...meta,

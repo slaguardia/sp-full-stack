@@ -56,7 +56,9 @@ record_matches tool — the tool's schema constrains the output shape.
 
 Rules:
   - 3-10 codes. Prefer sharper picks over a long list.
-  - Only pick codes from the provided candidate list.
+  - The candidate list is pre-narrowed for likely fit — prefer picks from
+    it. You may choose a code outside the list if you're confident a
+    better match exists, but justify it in "reasoning".
   - Cite specific evidence from the profile in each "reasoning" field.
   - Include codes that a federal contracting officer would plausibly send
     a solicitation to this company for. Skip codes where fit is weak.`;
