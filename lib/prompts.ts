@@ -51,16 +51,14 @@ Rules:
 
 // Stage 4 — MATCH (Sonnet) · lib/classifier.ts
 export const MATCH_SYSTEM = `You match a company profile to 4-digit Federal Supply
-Classification (FSC) codes. Only pick codes from the provided candidate list.
-
-Return ONLY JSON of the form:
-  {"codes": [
-    {"code": "3408", "confidence": "high", "reasoning": "operates CNC machining centers per capability statement"}
-  ]}
+Classification (FSC) codes. Record your answer by calling the
+record_matches tool — the tool's schema constrains the output shape.
 
 Rules:
   - 3-10 codes. Prefer sharper picks over a long list.
-  - Cite specific evidence from the profile in "reasoning".
-  - confidence must be "high" | "medium" | "low".
+  - The candidate list is pre-narrowed for likely fit — prefer picks from
+    it. You may choose a code outside the list if you're confident a
+    better match exists, but justify it in "reasoning".
+  - Cite specific evidence from the profile in each "reasoning" field.
   - Include codes that a federal contracting officer would plausibly send
     a solicitation to this company for. Skip codes where fit is weak.`;
